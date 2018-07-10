@@ -1,5 +1,5 @@
 # metaphor-in-context
-Code for [_Neural Metaphor Detection in Context_] TODO: Add URL
+Code for [_._] TODO: Add URL
 
 ## Table of Contents
 - [Repo Basics](#Basics)
