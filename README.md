@@ -17,7 +17,7 @@ Brief intro for each folder:
 
 - baseline: lexical baseline for MOH-X (10-fold cross-validation), TroFi, and VUA dataset.
 
-- context: biLSTM for classification task.
+- context: biLSTM for verb classification task.
 
 - sequence: biLSTM for sequence labeling task.
 
@@ -43,10 +43,26 @@ We have ELMo vectors for MOH-X, TroFi and VUA dataset with train/dev/test divisi
 3. Install PyTorch from http://pytorch.org/.
 
 
-## Reproduction (TODO: details to be added)
+## Reproduction (TODO: details to be checked)
+(Check the default hyperparameter setup)
+
 1. classificaiton task
 
+Check the main_XXX.py in the folder context.
+
 2. sequence labeling task
+
+Check the main_XXX.py in the folder sequence.
+
+Overall guideline:
+
+- main_XXX.py is the training and testing script for model on dataset XXX. 
+
+- All main_XXX.py shares the variable naming convection and similar code strucute.
+
+- Default GPU usage is True. Change using_GPU to False if not using GPU.
+
+- To try different sets of hyperparameters, please check comments for details.
 
 
 ## Reference
