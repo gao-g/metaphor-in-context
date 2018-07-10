@@ -1,5 +1,5 @@
 # metaphor-in-context
-Code for [_Neural Metaphor Detection in Context_] 
+Code for [_Neural Metaphor Detection in Context_] TODO:Add URL
 
 ## Table of Contents
 - [Repo Basics](#Basics)
@@ -32,11 +32,21 @@ The ELMo data will release upon request by other means, since they are too large
 
 We have ELMo vectors for MOH-X, TroFi and VUA dataset with train/dev/test division. 
 
-## Reproduction (details to be added)
+## Installation (TODO: details to be checked)
+1. This project is developed in Python 3.6. Using Conda to set up a virtual enviroment is recommended.
+
+2. Visit http://pytorch.org/, and install the PyTorch package. (TODO: add version here)
+
+3. Install the required dependencies. (TODO: prepare requirements.txt)
+    ```
+    pip install -r requirements.txt
+    ```
+
+## Reproduction (TODO: details to be added)
 1. classificaiton task
 
 2. sequence labeling task
 
 
 ## Reference
-(details to be added)
+(TODO: details to be added)
