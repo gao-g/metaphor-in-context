@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader type="ISBD-ER">
+    <fileDesc>
+   <titleStmt>
+    <title type="main">VU Amsterdam Metaphor Corpus</title>
+        <author>Gerard J Steen</author>
+        <author>Aletta G Dorst</author>
+        <author>J Berenike Herrmann</author>
+        <author>Anna A Kaal</author>
+        <author>Tina Krennmayr</author>
+        <funder>NWO, Netherlands Organization for Scientific Research, grant 277-30-001, ‘Metaphor in discourse: Linguistic forms, conceptual structures, cognitive representations’ (Vici programme)</funder>
+      </titleStmt>
+      <extent>
+        <seg type="designation">CollectionText</seg>
+        <seg type="size"> files: ca. 33 MB</seg>
+      </extent>
+      <publicationStmt>
+        <authority>[Depositor details removed]<date>2010-09-01</date></authority>
+        <distributor>
+          <name key="ota" type="organisation">University of Oxford Text Archive</name>
+          <name type="place">Oxford</name>
+          <address>
+            <addrLine>
+              <name key="ota" type="organisation">OTA</name>
+            </addrLine>
+            <addrLine>OUCS</addrLine>
+            <addrLine>7-19 Banbury Road</addrLine>
+            <addrLine>Oxford</addrLine>
+            <addrLine>OX1 3BG</addrLine>
+            <addrLine>
+              <name type="email">ota@bodleian.ox.ac.uk</name>
+            </addrLine>
+          </address>
+        </distributor>
+        <idno type="OTA">2541</idno>
+        <idno type="ota">2541</idno>
+	<idno type="PURL">http://purl.ox.ac.uk/ota/2541</idno>
+        <availability n="OTA-new" status="free" rend="visible">
+          <p>Available for non-commercial use on condition that the terms of the BNC Licence are observed and that this header is included in its
+            entirety with any copy distributed.</p>
+        </availability>
+        <date>2010-09</date>
+      </publicationStmt>
+      <notesStmt>
+        <note type="summary">
+          The resource contains a selection of excerpts from BNC-Baby files that have been annotated for metaphor. There are four registers, each comprising about 50,000 words: academic texts, news texts, fiction, and conversations.
+          Words have been separately labelled as participating in multi-word expressions (about 1.5%) or as discarded for metaphor analysis (0.02%).
+          Main categories include words that are related to metaphor (MRW), words that signal metaphor (MFlag), and words that are not related to metaphor.
+          For metaphor-related words, subdivisions have been made between clear cases of metaphor versus borderline cases (WIDLII, When In Doubt, Leave It In). 
+          Another parameter of metaphor-related words makes a distinction between direct metaphor, indirect metaphor, and implicit metaphor.</note>        		<note>Publications based on the data include:
+          <list><item> Gerard J. Steen, Aletta G. Dorst, J. Berenike Herrmann, Anna A. Kaal, Tina Krennmayr, Trijntje Pasma (2010). 
+          A method for linguistic metaphor identification: From MIP to MIPVU. Amsterdam/Philadelphia: John Benjamins Publishing Company.</item>
+        	<item>Tina Krennmayr (2011). Metaphor in Newspapers. Amsterdam: Vrije Universiteit. Available at http://dare.ubvu.vu.nl/handle/1871/19774.</item>
+		<item>Aletta G. Dorst (2011). 'Personification in Discourse: Linguistic forms, conceptual structures and communicative functions', Language and Literature, 20 (2):113-135.</item>
+	  </list>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+         <bibl>The corpus is a small subset of BNC Baby, composed of fragments of BNC Baby texts.</bibl>
+        <bibl>The corpus is also available for online searching at <relatedItem target="http://www2.let.vu.nl/oz/metaphorlab/metcor/search/">http://www2.let.vu.nl/oz/metaphorlab/metcor/search/</relatedItem></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Metaphor is commonly seen as a deliberate figure of speech, a rhetorical device utilized to achieve aesthetic or rhetorical effects: its stereotypical manifestations are in literature and politics. Metaphor is therefore also generally regarded as a striking and deviant form of language use. This view, however, has been under fire since 1980, when Lakoff and Johnson published Metaphors we live by. Subsequent cognitive-linguistic research has emphasized that metaphor is normal and pervasive in language and its use. It even suggests that much of our general thinking is non-literal. As a result, metaphor has been recast as a figure of thought, and metaphor in language is analyzed as a natural reflection of metaphor in thought.</p>
+          <p>The new approach has had a great impact on metaphor research in linguistics and psycholinguistics. One recent development has been the increased awareness that it is not entirely clear what counts as metaphor in language, language use, and cognitive processing. Followers of Lakoff and Johnson have mainly relied on clear cases out of context, but when metaphor is studied in authentic discourse, problematic questions about the identification of metaphor arise. These issues have been successfully addressed in this project.</p>
+          <p>The programme creates a foundation in authentic discourse, including literature, education, journalism, politics, and business, for the investigation of many of the new findings about metaphor. This will redress the neglect of systematic attention to specific linguistic forms and their metaphorical meanings, their genre-related distribution and function, and the diverging depths of their cognitive representation in discourse processing.</p>
+	  <p>The corpus was annotated between September 2005 and August 2010.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Encoding format: TEI P5 XML</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="OTASH">
+          <bibl>University of Oxford Text Archive Subject Headings</bibl>
+        </taxonomy>
+        <taxonomy xml:id="LCSH">
+          <bibl>Library of Congress Subject Headings</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date>1991-1994</date>
+      </creation>
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="#OTASH">
+          <term type="genre">Linguistic corpora</term>
+        </keywords>
+        <keywords scheme="#OTASH">
+          <term type="resource_type">Corpus</term>
+        </keywords>
+        <keywords scheme="#LCSH">
+          <term type="genre">Linguistics</term>
+        </keywords>
+        <keywords scheme="#LCSH">
+          <term type="genre">Linguistics analysis (Linguistics)</term>
+        </keywords>
+        <keywords scheme="#LCSH">
+          <term type="genre"/>
+        </keywords>
+        <keywords scheme="#LCSH">
+          <term type="genre"/>
+        </keywords>
+      </textClass>
+      <textClass>
+        <keywords scheme="http://www.ota.ox.ac.uk/processing">
+          <term type="class">corpus</term>
+          <term type="license">Free for non-commercial use</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change><date>2010-12-03</date><label>cataloguer</label><name>Wynne, Martin</name>TEIXML
+        header composed </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="OTA-filemap" rend="visible" n="unrestricted">
+        <ab type="dir">
+          <seg type="part">1</seg>
+          <ptr type="resourcePart" target="VUAMC.odd"/>
+        </ab>
+        <ab type="dir">
+          <seg type="part">2</seg>
+          <ptr type="resourcePart" target="VUAMC.rnc"/>
+        </ab>
+        <ab type="dir">
+          <seg type="part">3</seg>
+          <ptr type="resourcePart" target="VUAMC.rng"/>
+        </ab>
+        <ab type="dir">
+          <seg type="part">4</seg>
+          <ptr type="resourcePart" target="VUAMC.xml"/>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>
