@@ -15,7 +15,7 @@ Brief intro for each folder:
 
 - data: contains formatted version of each corpus. Check notes in data folder for details.
 
-- baseline: lexical baseline for MOH-X (10-fold cross-validation), TroFi, and VUA dataset.
+- baseline: lexical baseline for MOH-X, TroFi, and VUA dataset.
 
 - context: biLSTM for verb classification task.
 
@@ -30,10 +30,10 @@ Visit https://nlp.stanford.edu/projects/glove/, download glove.840B.300d.zip, an
 
 The ELMo data will release upon request by other means, since they are too large to be uploaded on github.
 
-We have ELMo vectors for MOH-X, TroFi and VUA dataset with train/dev/test division. 
+We have ELMo vectors for MOH-X, TroFi, and VUA dataset with train/dev/test division. 
 
 ## Installation
-1. This project is developed in Python 3.6. Using Conda to set up a virtual enviroment is recommended.
+1. This project is developed in Python 3.6. Using Conda to set up a virtual environment is recommended.
 
 2. Install the required dependencies. 
     ```
