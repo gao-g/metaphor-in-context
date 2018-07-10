@@ -1,5 +1,5 @@
 # metaphor-in-context
-Code for [_Neural Metaphor Detection in Context_] TODO:Add URL
+Code for [_Neural Metaphor Detection in Context_] TODO: Add URL
 
 ## Table of Contents
 - [Repo Basics](#Basics)
@@ -11,15 +11,15 @@ Code for [_Neural Metaphor Detection in Context_] TODO:Add URL
 ## Basics
 Brief intro for each folder:
 
-- corpora:contains raw datasets published online by researchers. can ignore.
+- corpora: contains raw datasets published online by researchers. can ignore.
 
 - data: contains formatted version of each corpus. Details see notes in data repo.
 
 - baseline: lexical baseline for MOH-X (10-fold cross-validation), TroFi and VUA.
 
-- context: BiLSTM for classification task
+- context: biLSTM for classification task
 
-- sequence: BiLSTM for sequence labeling task
+- sequence: biLSTM for sequence labeling task
 
 ## Embeddings
 1. GloVe
