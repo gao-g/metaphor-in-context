@@ -46,19 +46,17 @@ We have ELMo vectors for MOH-X, TroFi and VUA dataset with train/dev/test divisi
 ## Reproduction (TODO: details to be checked)
 (Check the default hyperparameter setup)
 
-1. classificaiton task
+1. classificaiton task (classification model): Check the main_XXX.py in the folder context.
 
-Check the main_XXX.py in the folder context.
-
-2. sequence labeling task
-
-Check the main_XXX.py in the folder sequence.
+2. sequence labeling task (labeling model): Check the main_XXX.py in the folder sequence.
 
 Overall guideline:
 
-- main_XXX.py is the training and testing script for model on dataset XXX. 
+- main_XXX.py is the training and testing script for classification or labeling model on dataset XXX. 
 
-- All main_XXX.py shares the variable naming convection and similar code strucute.
+- All main_XXX.py shares the variable naming convection and similar code structure.
+
+- Directly run main_XXX.py would train a model on dataset XXX, and report the performance during training and the final test performance without early stop.
 
 - Default GPU usage is True. Change using_GPU to False if not using GPU.
 
