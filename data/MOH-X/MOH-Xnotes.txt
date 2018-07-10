@@ -1,0 +1,12 @@
+Notes for MOH-X data:
+
+MOH-X_formatted_svo_cleaned.csv
+cleaned MOH-X dataset: no unnecessary quotes around the sentence, 
+add missing punctuations, separate all punctuations and words by space, 
+correct verb index.
+
+
+
+MOH-X_formatted_svo.csv
+NEVER use this one. Only serves as an base version for the cleaned version.
+Has unnecessary quotes, inseparable punctuations and incorrect verb index.

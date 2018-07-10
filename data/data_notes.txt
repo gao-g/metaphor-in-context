@@ -1,0 +1,43 @@
+Notes for data:
+
+xxx_formatted.csv:
+- Contains formatted version of dataset xxx.
+- Format: verb, sentence, verb_idx, label
+
+xxx_formatted_svo.csv:
+- Contains formatted version of dataset xxx.
+- Format: arg1, arg2, verb, sentence, label
+- Each verb has at least one argument.
+
+
+MOH: (not used)
+- MOH dataset
+- with train/dev/test split
+
+MOH-X: 
+- from the subset of MOH dataset used by Ekaterina et. al. 
+- discarded the examples that have no mapping in MOH dataset.
+- no train/dev/test split. do cross validation.
+
+TroFi:
+- A subset of TroFi dataset with human-created labels
+- with train/dev/test split
+
+TroFi-X: (not used)
+- A subset of TroFi dataset with parsable "subject, verb, object" triples.
+- no train/dev/test split. do cross validation.
+
+VUA:
+- VU Amsterdam Metaphor Corpus (Steen et al., 2010)
+- with train/dev/test split
+- from NAACL 2018 shared task
+
+VUAsequence:
+- VU Amsterdam Metaphor Corpus (Steen et al., 2010)
+- with train/dev/test split
+
+Yulia: (not used)
+- A test dataset created and used by Tsvetkov et. al.
+- no train/dev/test split. do cross validation.
+
+

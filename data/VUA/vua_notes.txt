@@ -1,0 +1,21 @@
+Notes for VUA data:
+This is a dataset only for verbs based on the shared task, which have test and trianing split.
+The validation set used here is a portion of the training set from the shared task 
+(a portion of sentences not of texts)
+
+Total: 23114
+
+Training: 17240
+Validation: 3448
+Test: 5874
+The above corresponds to VUA_formatted_train.csv, VUA_formatted_val.csv, VUA_formatted_test.csv
+
+VUA_formatted_train_augmented.csv
+ - This is a training set augmented by including all verb instances in each sentences.
+ - In the given training set from the shared task, some sentences may contain multiple verbs, but only some verbs are included in the trianing set. This augmented version extracts all verb-sentence pairs based on the raw VUA dataset with labels for each word.
+
+VUA_formatted_train_noVAL.csv
+ - This is a training set reduced by excluding all sentences that appear in the text shown up in validaiton set.
+ - The collection of VUA dataset is based on text from 4 genres, and split each text into sentences.
+ - We split the training and validation set based on a set of sentences, instead of the set of texts, so different sentences from the same text may lie across training and validaiton set. This reduced version excludes all training sentences that appear in the same text segment as any validation sentence.
+

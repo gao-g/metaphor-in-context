@@ -1,0 +1,161 @@
+verb,sentence,verb_idx,label
+dash,He dashed the plate against the wall,1,0
+flare,The bellbottom pants flare out .,3,0
+gather,I gather you have not done your homework .,1,1
+deform,His body was deformed by leprosy,3,0
+shed,He shed his image as a pushy boss .,1,1
+claw,The politician clawed his rival .,2,1
+declare,He declared that he needed more money to carry out the task he was charged with,1,0
+build,build a modern nation,0,0
+wharf,The ship was wharfed,3,0
+refer,This plant can be referred to a known species,4,0
+absorb,Her interest in butterflies absorbs her completely .,4,1
+adhere,The residents of this village adhered to Catholicism .,5,1
+dismiss,She dismissed his advances,1,0
+abuse,Do n't abuse the system .,2,1
+want,I want you here at noon !,1,0
+mold,The dress molds her beautiful figure,2,1
+map,map the surface of Venus,0,0
+adhere,Will this wallpaper adhere to the wall ?,3,0
+color,color the walls with paint in warm tones,0,0
+bolt,She bolted from her seat,1,0
+sow,She sowed sunflower seeds,1,0
+walk,Paul walked the streets of Damascus .,1,0
+debut,This young soprano debuts next month at the Metropolitan Opera,3,0
+moderate,John moderated the discussion,1,0
+assimilate,This country assimilates immigrants very quickly,2,0
+swim,my brain is swimming after the bottle of champagne,3,1
+grind,grind designs into the glass bowl,0,0
+head,These rivers head from a mountain range in the Himalayas,2,1
+puff,he huffed and puffed as he made his way up the mountain,3,0
+treat,they had to treat with the King,3,1
+absorb,He absorbed the knowledge or beliefs of his tribe .,1,1
+sequester,The cations were sequestered,3,0
+retrofit,They car companies retrofitted all the old models with new carburetors,3,0
+profess,she professed herself as a nun,1,0
+reenact,She reenacted what had happened earlier that day,1,0
+piece,She pieced the china cup,1,0
+construct,construct an argument,0,0
+wrestle,I wrestled with this decision for years .,1,1
+begin,The DMZ begins right over the hill,2,0
+piece,""" piece the broken pieces of thread , slivers , and rovings """,4,0
+cook,The apothecary cooked the medicinal mixture in a big iron kettle,2,0
+ask,I asked about their special today,1,0
+mount,They mounted the aerator on a floating,1,0
+visualize,The radiologist can visualize the cancerous liver .,3,0
+map,We have n't even begun to map the many galaxies that we know exist,6,0
+amount,Her action amounted to a rebellion,2,0
+stampede,Thunderbolts can stampede animals,2,0
+rip,The curtain ripped from top to bottom .,2,0
+lean,She leaned over the banister,1,0
+vest,The property vests in the trustees,2,0
+spell,I 'm afraid this spells trouble !,4,1
+drain,The exercise class drains me of energy .,3,1
+end,This sad scene ended the movie .,3,0
+continue,The bad weather continued for two more weeks,3,0
+hunt,She hunted for her reading glasses but was unable to locate them,1,1
+declare,She was declared incompetent,2,0
+segregate,This neighborhood is segregated,3,0
+absorb,The immigrants were quickly absorbed into society .,4,1
+blur,The haze blurs the hills,2,0
+stagnate,Industry will stagnate if we do not stimulate our economy,2,0
+miss,The child had been missing for a week,4,0
+like,I 'd like a beer now !,2,0
+water,My mouth watered at the prospect of a good dinner,2,0
+communicate,Please communicate this message to all employees,1,0
+sing,the kettle was singing,3,1
+sow,sow suspicion or beliefs,0,1
+screen,The scientist screened these samples .,2,0
+introduce,introduce exotic fruits,0,0
+uproot,The war uprooted many people .,2,1
+shipwreck,They were shipwrecked in one of the mysteries at sea .,2,0
+inherit,I inherited a castle from my French grandparents,1,0
+process,He was warned that the district attorney would process him,8,1
+end,The terrible news ended our hopes that he had survived .,3,0
+compare,John compared his haircut to his friend 's,1,0
+flash,The lights were flashing,3,0
+talk,Be carefu l-- his secretary talks .,5,0
+ascend,The boat ascended the Delaware .,2,0
+hurt,Our business was hurt by the new competition,3,0
+blend,The colors blend well .,2,0
+pledge,I was pledged to silence,2,0
+address,He addressed the crowd outside the window .,1,0
+retain,I can not retain so much information,3,0
+consolidate,The town and county schools are being consolidated,7,0
+suspend,The secret police suspended their victims from the ceiling and beat them .,3,0
+steam,The ship steamed off into the Pacific,2,0
+line,trees line the riverbank,1,0
+trace,She traced the circumstances of her birth,1,1
+stagger,He staggered along in the heavy snow .,1,0
+gravitate,The stars gravitate towards each other,2,0
+raid,T. Boone Pickens raided many large companies,3,0
+rip,The candidate ripped into his opponent mercilessly .,2,1
+melt,The sun melted the ice,2,0
+pour,Water poured all over the floor .,1,0
+adhere,You must adhere to the rules .,2,1
+crown,A weather vane crowns the building,3,1
+stoop,The rocks stooped down over the hiking path .,2,1
+peep,The new moon peeped through the tree tops .,3,1
+seize,the invaders seized the land and property of the inhabitants,2,0
+clap,clap two boards together,0,0
+wear,What should I wear today ?,3,0
+refer,Christians refer to the mother of Jesus as the Virgin Mary,1,0
+incline,She inclines to the view that people should be allowed to expres their religious beliefs,1,1
+converge,The crowd converged on the movie star .,2,0
+consume,this car consumes a lot of gas,2,0
+suspend,They suspended payments on the loan .,1,0
+attend,The children in the audience attended the recital quietly,5,0
+use,She uses drugs rarely,1,0
+suck,Mud was sucking at her feet,2,1
+count,I can count my colleagues in the opposition,2,0
+root,this plant roots quickly,2,0
+pour,They poured water over the floor .,1,0
+introduce,A new word processor was introduced,5,0
+talk,Actions talk louder than words .,1,1
+dehydrate,""" In the desert , you get dehydrated very quickly . """,7,0
+tell,I tell you that man is a crook !,1,0
+tie,They tied their victim to the chair,1,0
+upgrade,I 've upgraded my computer so I can run better software,2,0
+appear,He suddenly appeared at the wedding,2,0
+pose,We do n't know the woman who posed for Leonardo so often,7,0
+put,I put these memories with those of bygone times,1,0
+taste,This tastes of nutmeg,1,0
+dance,The young girl danced into the room .,3,0
+orient,a magazine oriented towards young people,2,0
+inflate,inflate the currency,0,1
+gallop,He was galloping down the road,2,0
+spread,spread the bread with cheese,0,0
+bind,The Chinese would bind the feet of their women .,3,0
+downsize,Three secretaries were downsized during the financial crisis .,3,1
+belong,the uniform looks like it belonged to a museum collection,5,0
+tug,She tugged for years to make a decent living,1,1
+buzz,Planes buzzed the crowds in the square,1,0
+sing,The nightingale was singing,3,0
+neutralize,The treaty neutralized the small republic,2,1
+relax,The government relaxed the curfew after most of the rebels were caught,2,1
+agree,We agreed on the terms of the settlement,1,0
+translate,I have to translate when my in - laws from Austria visit the U.S.,3,0
+back,back the car into the parking spot,0,0
+digest,I can not digest all this information,3,1
+prick,The nurse pricked my finger to get a small blood sample,2,0
+climb,This young man knows how to climb the social ladder,6,1
+date,Scientists often can not date precisely archeological or prehistorical findings,4,0
+decline,""" in many languages , speakers decline nouns , pronouns , and adjectives """,6,0
+age,we age every day -- what a depressing thought !,1,0
+shake,I could n't shake the car that was following me .,3,1
+answer,A few words would answer,4,0
+clap,The big bird clapped its wings,3,0
+key,His new Mercedes was keyed last night in the parking lot,4,0
+upgrade,I upgraded to First Class when Coach Class was overbooked,1,0
+tread,male birds tread the females,2,0
+clean,clean grain before milling it,0,0
+ruffle,The seamstress ruffled the curtain fabric .,2,0
+shake,Shake the salt out of the salt shaker .,0,0
+decide,We finally decided after lengthy deliberations,2,0
+spat,Bullets were spatting the leaves,2,0
+climb,prices climbed steeply,1,1
+aim,He aimed his fists towards his opponent 's face,1,0
+waste,We waste the dirty water by channeling it into the sewer .,1,0
+swallow,He swallowed his words,1,1
+sensitize,Long - term exposure to this medicine may sensitize you to the allergen,8,0
+reflect,The mess in his dorm room reflects on the student,6,1

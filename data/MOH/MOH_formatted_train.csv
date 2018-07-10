@@ -1,0 +1,1284 @@
+verb,sentence,verb_idx,label
+ease,ease the pain in your legs,0,0
+claim,They claimed on the maximum allowable amount,1,0
+gag,The press was gagged,3,1
+communicate,The rooms communicated,2,1
+match,Let them match their best athletes against ours .,2,0
+spot,This dress spots quickly,2,0
+sail,We sailed the Atlantic,1,0
+culminate,Seurat culminated pointillism .,1,1
+stimulate,stimulate my appetite,0,0
+declare,His wife declared at once for moving to the West Coast,2,0
+face,A glossy material faced the lapels of the jacket .,3,1
+miss,The arrow missed the target,2,0
+correct,engineers will work to correct the effects or air resistance,4,0
+treat,Do n't worry about the expensive wine -- I'm treating,9,0
+debut,The band debuts a new song or two each month,2,0
+want,Your former neighbor is wanted by the FBI,4,0
+bounce,The rubber ball bounced,3,0
+paint,We painted the rooms yellow,1,0
+acknowledge,acknowledge the deed,0,0
+explode,We exploded the nuclear bomb,1,0
+relate,How are these two observations related ?,5,0
+paste,He pasted his opponent,1,1
+air,We can not air this X - rated song,3,0
+mold,She molded the rice balls carefully,1,0
+shed,Our dog sheds every Spring .,2,0
+capture,capture the essence of Spring,0,1
+uproot,They plan to uproot the vine that has spread all over the garden .,3,0
+harmonize,harmonize one 's goals with one 's abilities,0,1
+bounce,The ex - boxer 's job is to bounce people who want to enter this private club,8,1
+compose,Beethoven composed nine symphonies,1,0
+locate,Can you locate your cousins in the Midwest ?,2,0
+tense,He tensed up when he saw his opponent enter the room,1,0
+step,step over to the blackboard,0,0
+inform,She had informed on her own parents for years,2,0
+sign,This road has been signed .,4,0
+claim,He claimed his suitcases at the airline counter,1,0
+declare,Do you have anything to declare ?,5,0
+fracture,The pothole fractured a bolt on the axle .,2,0
+seat,seat the camera on the tripod,0,0
+preserve,preserve the forest and the lakes,0,0
+swallow,She swallowed the last words of her speech,1,1
+buy,She wanted to buy his love with her dedication to him and his work,3,0
+ruffle,This play is going to ruffle some people .,5,1
+ordain,The minister was ordained only last month .,3,0
+step,She stepped into a life of luxury,1,1
+reflect,His lack of interest in the project reflects badly on him,7,1
+clean,The boys cleaned the sandwich platters,2,0
+believe,""" When you hear his sermons , you will be able to believe , too """,12,0
+puff,Her faced puffed up from the drugs,2,0
+breathe,She breathes the Christian spirit,1,1
+convulse,The comedian convulsed the crowd,2,1
+retrofit,The laboratory retrofitted to meet the safety codes,2,0
+splash,She splashed the water around her .,1,0
+claw,They clawed their way to the top of the mountain .,1,1
+spray,Water sprayed all over the floor,1,0
+ordain,The King ordained the persecution and expulsion of the Jews .,2,0
+seem,She seems to be sleeping,1,0
+gag,he swallowed a fishbone and gagged,5,0
+recruit,The lab director recruited an able crew of assistants .,3,0
+time,The candidate carefully timed his appearance at the disaster scene .,3,0
+admit,This problem admits of no solution,2,1
+clean,The dentist cleaned my teeth,2,0
+rail,They railed from Rome to Venice,1,0
+inject,inject hydrogen into the balloon,0,0
+conduct,conduct an orchestra ; Barenboim conducted the Chicago symphony for years,5,0
+wallow,pigs were wallowing in the mud,2,0
+assign,The biologist assigned the mushroom to the proper class .,2,0
+wish,I wish I could go home now .,1,0
+blaze,Meteors blazed across the atmosphere .,1,1
+loop,He looped the watch through his belt .,1,0
+mold,The furniture molded in the old house,2,0
+put,put these words to music,0,0
+lean,We can lean on this man,2,1
+pump,He pumped bullets into the dummy .,1,1
+wrestle,He wrestled all his life with his feeling of inferiority .,1,1
+land,The ship landed in Pearl Harbor,2,0
+glow,Make the people 's hearts glow,5,1
+fasten,He fastened the lock onto the door .,1,0
+puff,The critics puffed up this Broadway production,2,1
+aim,Please do n't aim at your little brother !,3,0
+reseat,The usher insisted on reseating us,4,0
+involve,Do n't involve me in your family affairs !,2,0
+spell,She spelled her husband at the wheel,1,1
+loop,The stunt pilot looped his plane .,3,1
+locate,Our sense of sight enables us to locate objects in space .,7,0
+communicate,He and his sons have n't communicated for years,6,0
+waste,The water wastes back into the ocean .,2,1
+shower,The guests showered rice on the couple,2,0
+waste,He wasted his inheritance on his insincere friends .,1,1
+appreciate,The yen appreciated again !,2,0
+acknowledge,We must acknowledge the kindness she showed towards us,2,0
+act,This scene acts well,2,1
+transform,He transformed into a monster .,1,1
+decide,This new development finally decided me !,4,0
+talk,She will talk at Rutgers next week .,2,0
+hail,She hails from Kalamazoo,1,0
+blast,blast a passage through the mountain,0,0
+interrupt,Do n't interrupt me when I 'm reading,2,0
+abuse,This boss abuses his workers .,2,0
+change,She changed completely as she grew older,1,0
+mean,The water shortage means that we have to stop taking long showers .,3,0
+demand,I demand an explanation,1,0
+salute,I meet this men every day on my way to work and he salutes me,13,0
+build,Suspense was building right from the beginning of the opera,2,0
+level,level criticism or charges at somebody,0,1
+admit,We can not admit non - members into our club building,3,0
+eat,She was eating a banana,2,0
+govern,His belief in God governs his conduct,4,0
+vest,She vested her vast fortune in her two sons,1,0
+pump,She pumped the witnesses for information .,1,1
+sign,""" I do n't know how to sign , so I could not communicate with my deaf cousin . """,7,0
+digest,the government digested the entire law into a code,2,1
+lend,I will lend you my car,2,0
+desert,""" If soldiers deserted Hitler 's army , they were shot """,3,0
+want,want the strength to go on living,0,0
+impress,The young chess player impressed her audience,4,0
+recapture,The author recaptures an old idea here .,2,0
+approach,I was approached by the President to serve as his adviser in foreign matters,2,0
+flare,Every star seemed to flare with new intensity .,4,1
+date,She wrote the letter on Monday but she dated it Saturday so as not to reveal that she procrastinated,8,0
+warn,I warned you that I would ask some difficult questions .,1,0
+shorten,The manuscript must be shortened,4,0
+assign,The teacher assigned him to lead his classmates in the exercise .,2,0
+rail,fresh fruit are railed from Italy to Belgium,3,0
+mount,mount slides for macroscopic analysis,0,0
+steam,The rain forest was literally steaming,5,0
+demand,The victim 's family is demanding compensation,5,0
+agree,No two of my colleagues would agree on whom to elect chairman,6,0
+orient,The dean of students tries to orient the freshmen,6,0
+palpitate,His nostrils palpitated,2,0
+paint,he painted all day in the garden,1,0
+look,She looked her devotion to me,1,0
+whistle,She whistled a melody,1,0
+pin,pin the needle to the shirt,0,0
+dull,the varnished table top dulled with time,4,0
+put,That song put me in awful good humor,2,0
+seize,The FBI seized the drugs,2,0
+steamroller,steamroller the opposition,0,1
+inject,He injected new life into the performance,1,1
+refine,refine a design or pattern,0,0
+denote,Her smile denoted that she agreed,2,0
+cheer,The crowd cheered the demonstrating strikers,2,0
+translate,poetry often does not translate,4,0
+scan,The beams scanned the night sky,2,1
+vegetate,The fields vegetate vigorously,2,0
+please,The waiters around her aim to please,6,0
+worry,I can not sleep -- my daughter 's health is worrying me,10,0
+curl,""" Curl my hair , please . """,1,0
+precipitate,The crisis precipitated by Russia 's revolution,2,1
+ruin,The country lay ruined after the war,3,0
+change,Would you change places with me ?,2,0
+reseat,reseat the old broken chair,0,0
+poison,Her husband poisoned her drink in order to kill her,2,0
+oppose,The board opposed his motion,2,0
+pound,pound the roots with a heavy flat stone,0,0
+compare,We can compare the Han dynasty to the Romans,2,0
+report,I report to work every day at 9 o'clock,1,0
+allow,The camera store owner allowed me $ 50 on my old camera,4,0
+stamp,Are the letters properly stamped ?,4,0
+spread,A big oil spot spread across the water,4,0
+involve,Dinner at Joe 's always involves at least six courses,5,0
+agree,Subjects and verbs must always agree in English,5,0
+compare,This car does not compare with our line of Mercedes,4,0
+capture,She captured all the men 's hearts,1,1
+use,She used to call her mother every week but now she calls only occasionally,1,0
+dismiss,I was dismissed after I gave my report,2,0
+grind,grind the spices in a mortar,0,0
+tread,For fools rush in where angels fear to tread,8,0
+mean,These flowers were meant for you .,3,0
+vote,They voted aid for the underdeveloped countries in Asia,1,0
+raid,The police raided the crack house,2,0
+translate,Can you translate the instructions in this manual for a layman ?,2,0
+transform,It can transform energy to light .,2,0
+clean,This stove cleans easily,2,0
+rejuvenate,the land rejuvenated,2,0
+profess,He professed innocence but later admitted his guilt,1,0
+execute,execute the decision of the people,0,0
+indicate,indicated his wishes in a letter,0,0
+commit,commit a random act of kindness,0,0
+hack,The patient with emphysema is hacking all day,5,0
+miss,How could I miss that typo ?,3,0
+incline,She inclined her head to the student,1,0
+drown,The child drowned in the lake,2,0
+construct,construct an equilateral triangle,0,0
+port,The small canoe could be ported easily,5,0
+push,The crowd pushed forward,2,0
+stuff,My nose is all stuffed,4,0
+dull,Too much cutting dulls the knife 's edge,3,0
+jam,The driver jammed the brake pedal to the floor,2,0
+drink,The mother drinks in every word of her son on the stage,2,1
+push,He pushed the table into a corner,1,0
+grab,This story will grab you,3,1
+flare,The night sky flared with the massive bombardment .,3,1
+recall,The ambassador was recalled to his country,3,0
+downsize,The car makers downsized the SUVs when fuel became very expensive .,3,1
+worry,I worry about my grades,1,0
+sequester,The dentist sequesters the tooth he is working on,2,0
+miss,I missed the concert,1,0
+brush,He brushed the wall lightly,1,0
+supplicate,supplicate for permission,0,0
+put,I would n't put it that way,3,0
+push,The guy hanging around the school is pushing drugs,7,1
+deflate,The new measures deflated the economy,3,1
+divide,divide the cake into three equal parts,0,0
+ping,The bugs pinged the lamp shade,2,0
+live,we had to live frugally after the war,3,0
+rotate,We rotate the lead soprano every night,1,0
+blister,The Senator blistered the administration in his speech on Friday .,2,1
+drift,drift the boats downstream,0,0
+expect,The meteorologists are expecting rain for tomorrow,3,0
+govern,most transitive verbs govern the accusative case in German,3,1
+taste,Can you taste the garlic ?,2,0
+gain,The stock market gained 24 points today,3,0
+port,the captain ported the ship at night,2,0
+answer,The question concerning the meaning of life can not be answered,10,0
+assume,""" She assumed indifference , even though she was seething with anger """,2,0
+belong,Where do these books belong ?,4,0
+rubricate,She was rubricated by the pope,2,0
+glare,The sun glared down on us,2,1
+tempt,St. Anthony was tempted in the desert,3,0
+eat,This dog does n't eat certain kinds of meat,4,0
+rip,The tornado ripped along the coast .,2,1
+fear,I fear the winters in Moscow,1,0
+stumble,The drunk man stumbled about,3,0
+inform,I informed him of his rights,1,0
+specialize,specialize one 's research,0,0
+engrave,engraved the trophy cupt with the winner 's,0,0
+juggle,the player juggled the ball,2,0
+vote,vote one 's conscience,0,0
+excuse,Please excuse my dirty hands,1,0
+administer,administer the last unction,0,0
+erase,Please erase the formula on the blackboard -- it is wrong !,1,0
+fill,The liquid fills the container,2,0
+map,sorrow was mapped on the mother 's face,2,1
+land,The bird landed on the highest branch,2,0
+poison,poison someone 's mind,0,1
+lighten,she lightened the load on the tired donkey,1,0
+gain,the peace movement gained momentum,3,0
+crush,crush an aluminum can,0,0
+blast,blast a tunnel through the Alps,0,0
+assimilate,The nasal assimilates to the following consonant,2,0
+retrofit,The mansion was retrofitted with modern plumbing,3,0
+glare,The girl glared at the man who tried to make a pass at her,2,0
+float,He floated the logs down the river,1,0
+suspend,The prison sentence was suspended .,4,0
+drink,We were up drinking all night,3,0
+profess,She professes organic chemistry,1,0
+thrill,he was thrilled by the speed and the roar of the engine,2,0
+grab,The passenger grabbed for the oxygen mask,2,0
+shower,He showered her with presents,1,1
+drift,The unknown young man drifted among the invited guests,4,1
+smash,The motorcycle smashed into the guard rail,2,0
+fit,Can you fit the toy into the box ?,2,0
+write,Please write to me every week .,1,0
+spread,spread cheese on a piece of bread,0,0
+reform,The lazy student promised to reform,5,0
+bob,Bernice bobs her hair these days !,1,0
+key,key one 's actions to the voters ' prevailing attitude,0,1
+confirm,his story confirmed my doubts,2,0
+invite,I invited them to a restaurant,1,0
+excuse,Please excuse me from this class,1,0
+relax,He relaxed in the hot tub,1,0
+mount,mount a theater production,0,1
+vouch,I vouch for the quality of my products .,1,0
+paste,paste the sign on the wall,0,0
+form,This wall forms the background of the stage setting,2,1
+rationalize,This function can be rationalized,4,0
+ping,the bullet pinged when they struck the car,2,0
+invite,The organizers invite submissions of papers for the conference,2,0
+bind,They bind their books in leather .,1,0
+root,The problem roots in her depression,2,1
+wish,We wish you a nice evening !,1,0
+radiate,spokes radiate from the hub of the wheel,1,0
+refer,refer a patient to a specialist,0,0
+impress,""" To make a batik , you impress a design with wax """,7,0
+finish,He finished the dishes,1,0
+stuff,stuff a pillow with feathers,0,0
+sign,She signed the letter and sent it off .,1,0
+pledge,I pledge that I will honor my wife,1,0
+flow,Water flowed into the cave,1,0
+nod,the flowers were nodding in the breeze,3,1
+prick,The dog pricked up his ears,2,0
+suspend,The fluid suspends the particles .,2,1
+computerize,They computerized the car industry,1,0
+count,The toddler could count to 100,3,0
+acquaint,Permit me to acquaint you with my son .,3,0
+supplicate,supplicate God 's blessing,0,0
+compose,She had to compose herself before she could reply to this terrible insult,3,0
+tack,tack the notice on the board,0,0
+rationalize,rationalize the child 's seemingly crazy behavior,0,1
+flick,The lights flicked on and off .,2,0
+dull,Middle age dulled her appetite for travel,2,1
+build,These architects build in interesting and new styles,2,0
+climb,The path climbed all the way to the top of the hill,2,1
+belong,This book belongs to me,2,0
+head,The wheat headed early this year,2,1
+reach,Our advertisements reach millions,2,0
+use,She uses her influential friends to get jobs,1,0
+debut,""" The new ballet that debuts next months at Covent Garden , is already sold out """,5,0
+cloud,The stars are obscured by the clouds .,6,0
+fasten,They fastened various nicknames to each other .,1,1
+sing,She was singing while she was cooking,2,0
+understand,She did not understand her husband,3,0
+remit,The pain finally remitted,3,0
+credit,We credit your account with $ 100,1,0
+fit,How does this shirt fit ?,4,0
+spray,spray water on someone,0,0
+shed,She shed a lot of tears when this happened .,1,0
+discolor,The detergent discolored my shirts .,2,0
+produce,The Bordeaux region produces great red wines,3,0
+boost,Boost the voltage in an electrical circuit .,0,0
+back,Can you back up your claims ?,2,0
+act,think before you act,3,0
+flash,The headlines flashed on the screen,2,0
+stream,their manes streamed like stiff black pennants in the wind,2,1
+answer,This may answer her needs,2,0
+clamor,The delegates clamored their disappointment,2,1
+constitutionalize,The United States were constitutionalized in the late 18th century,4,0
+seem,It seems that he is very gifted,1,0
+mellow,""" With age , he mellowed """,5,0
+sensitize,He was not sensitized to her emotional needs,3,0
+exclude,The unruly student was excluded from the game,4,0
+sustain,We sustained the diplomatic negotiations as long as possible,1,0
+condemn,He was condemned to ten years in prison,2,0
+grope,She groped for her glasses in the darkness of the bedroom,1,0
+twist,twist the dough into a braid,0,0
+interrupt,Please do n't interrupt me while I 'm on the phone,3,0
+pound,The locks pound the water of the canal,2,1
+exhaust,We have exhausted the food supplies .,2,1
+crawl,The old cheese was crawling with maggots,4,1
+lock,He was locked in a laughing fit .,2,1
+answer,The drawing of the suspect answers to the description the victim gave,5,0
+cloud,The chemical clouded the liquid to which it was added .,2,1
+scan,She scanned the newspaper headlines while waiting for the taxi,1,0
+invade,This new colleague invades my territory,3,0
+clog,horses were clogged until they were tamed,2,1
+mellow,These apples need to mellow a bit more,4,1
+ease,He eased himself into the chair,1,0
+build,The government is building new schools in this state,3,0
+form,social groups form everywhere,2,0
+allow,I allow for this possibility,1,0
+quote,He quoted the Bible to her .,1,0
+rotate,We rotate the crops so as to maximize the use of the soil,1,0
+register,register for an election,0,0
+steam,steam - clean the upholstered sofa,0,0
+sit,The White House sits on Pennsylvania Avenue,3,1
+nod,The old man sat nodding by the fireplace,4,0
+crawl,My skin crawled -- I was terrified,2,1
+sound,This sounds interesting,1,0
+help,This will help to prevent accidents,2,0
+synchronize,synchronize biblical events,0,0
+trace,The hunters traced the deer into the woods,2,0
+flow,The crowd flowed out of the stadium,2,1
+form,form the young child 's character,0,1
+live,You must accept yourself and others if you really want to live,11,0
+negociate,The parties negociated all night,2,0
+solicit,He was accused of soliciting his colleagues to destroy the documents .,4,0
+seat,the mother seated the toddler on the high chair,2,0
+claim,He claimed that he killed the burglar,1,0
+attack,""" Hitler attacked Poland on September 1 , 1939 and started World War II """,2,0
+radiate,She radiates happiness,1,1
+change,Father had to learn how to change the baby,6,0
+spread,He spread fertilizer over the lawn,1,0
+double,The population doubled within 50 years,2,0
+snort,The critic snorted contemptuously,2,0
+intervene,This interludes intervenes between the two movements,2,1
+dull,Age had dulled the surface,2,0
+look,You do n't look your age !,3,0
+remember,he remembered how he used to pick flowers,1,0
+devour,She devoured his novels,1,1
+act,She acts as the chair,1,1
+stagger,She was staggered with bills after she tried to rebuild her house following the earthquake .,2,1
+drown,I was drowned in work,2,1
+seize,Fear seized the prisoners,1,1
+inflate,The war inflated the economy,2,1
+climb,Sales were climbing after prices were lowered,2,1
+accommodate,The scientists had to accommodate the new results with the existing theories,4,0
+help,Everyone helped out during the earthquake,1,0
+scorch,The wildfire scorched the forest and several homes .,2,0
+swell,The mother was swelling with importance when she spoke of her son,3,1
+portray,The book portrays the actor as a selfish person,2,0
+flood,flood the market with tennis shoes,0,1
+push,""" ` Now push hard , ' said the doctor to the woman """,3,0
+condense,Congress condensed the three - year plan into a six - month plan,1,0
+pose,She posed as the Czar 's daughter,1,0
+square,square the wood with a file,0,0
+register,Did this event register in your parents ' minds ?,3,0
+tempt,We were tempted by the delicious - looking food,2,0
+visit,Did you ever visit Paris ?,3,0
+reseat,reseat Carnegie Hall,0,0
+precede,She always precedes her lectures with a joke,2,0
+smash,She smashed her car against the guard rail,1,0
+convulse,The muscles in her face convulsed,5,0
+cook,My husband does n't cook,4,0
+volley,They began to volley the tennis ball .,3,0
+correct,The new contact lenses will correct for his myopia,5,0
+immigrate,only few plants can immigrate to the island,4,0
+boost,The singer had to be boosted onto the stage by a special contraption .,5,0
+redound,Her efforts will redound to the general good .,3,1
+tug,She tugged and wrestled with her conflicts,1,1
+dance,The children danced with joy .,2,0
+stoop,I wo n't stoop to reading other people 's mail .,3,1
+report,One student reported the other to the principal,2,0
+assume,He assumes the lotus position,1,0
+pound,The prisoners are safely pounded,4,1
+involve,His story completely involved me during the entire afternoon,3,0
+top,The towers were topped with conical roofs .,3,0
+deflate,deflate the currency,0,1
+blister,Her feet blistered during the long hike .,2,0
+ask,He is asking $ 200 for the table,2,0
+sustain,The court sustained the motion,2,0
+snort,she snorted her disapproval of the proposed bridegroom,1,1
+seat,""" The theater seats 2,000 """,3,0
+provide,The will provides that each child should receive half of the money,2,0
+wallow,wallow in your success !,0,1
+factor,make things factor into a company 's profitability,2,0
+infect,Your children have infected you with this head cold,3,0
+put,She put too much emphasis on her the last statement,1,1
+volley,I heard him volley a string of curses .,3,1
+use,we only use Spanish at home,2,0
+excavate,Carnegie had a lake excavated for Princeton University 's rowing team .,4,0
+reflect,her sunglasses reflected his image,2,0
+match,The company matched the employees ' contributions .,2,0
+erupt,Unrest erupted in the country,1,1
+ferment,Islam is fermenting Africa,2,1
+upgrade,The airline upgraded me when I arrived late and Coach Class was full,2,0
+condemn,The building was condemned by the inspector,3,0
+attack,The Serbs attacked the village at night,2,0
+execute,""" In some states , criminals are executed """,7,0
+blaze,The spaceship blazed out into space .,2,1
+clamor,he clamored for justice and tolerance,1,0
+climb,Did you ever climb up the hill behind your house ?,3,0
+pound,pound the cows so they do n't stray,0,0
+lock,Lock the bike to the fence !,0,0
+commit,""" After the second episode , she had to be committed """,10,0
+acknowledge,He never acknowledges his colleagues when they run into him in the hallway,2,0
+nod,He nodded his approval,1,0
+peep,He peeped his head through the window .,1,1
+glow,Her face glowed when she came out of the sauna,2,1
+nag,She nags her husband all day long,1,0
+spread,The invaders spread their language all over the country,2,0
+guard,Please guard my possessions while I 'm away .,1,0
+confront,You must confront your problems,2,0
+consider,Please consider your family,1,0
+bounce,He bounced to his feet,1,0
+brush,brush away the crumbs,0,0
+tithe,He tithed his income to the Church,1,0
+emerge,""" Suddenly , the proprietor emerged from his office """,5,0
+depress,The rising inflation depressed the economy,3,0
+tug,Each oar was tugged by several men,3,0
+dash,dashed by the refusal,0,1
+sharpen,The debate sharpened,2,1
+walk,The horses walked across the meadow .,2,0
+produce,The tree would not produce fruit,4,0
+declare,He declared that he was innocent,1,0
+execute,The Mafioso who collaborated with the police was executed,8,0
+execute,execute a will or a deed,0,0
+decline,he declined to join the group on a hike,1,0
+immigrate,Many people immigrated at the beginning of the 20th century,2,0
+penetrate,The hikers did not manage to penetrate the dense forest .,6,0
+visualize,Mathematicians often visualize .,2,1
+join,The two roads join here,3,0
+admit,This ticket will admit one adult to the show,3,0
+steamroller,The Senator steamrollered the bill to defeat,2,1
+ascend,We ascended the mountain .,1,0
+oppose,The senator said he would oppose the bill,5,0
+water,We watered the buffalo,1,0
+finish,That finished me with Mary,1,0
+rationalize,We rationalized the factory 's production and raised profits,1,0
+transform,This experience transformed her completely .,2,1
+acknowledge,The program committee acknowledged the submission of the authors of the paper,3,0
+rail,They are railing for fresh fish,2,1
+help,New slipcovers will help the old living room furniture,3,1
+tell,He could tell that she was unhappy,2,0
+scorch,The heat scorched the countryside .,2,1
+lay,This hen does n't lay,4,0
+miss,He misses his mother,1,0
+perturb,The electrons were perturbed by the passing ion,3,1
+denote,She denoted her feelings clearly,1,0
+answer,answer the telephone,0,0
+ferment,We ferment the grapes for a very long time to achieve high alcohol content,1,0
+top,The gardener topped the trees and bushes .,2,1
+screen,They decided to screen the blood for the HIV virus .,3,1
+flap,flags flapped in the strong wind,1,0
+construct,construct a sentence,0,0
+grind,grind lenses for glasses and cameras,0,0
+attest,His high fever attested to his illness,3,1
+tip,tip the screen upward,0,0
+escape,The convicted murderer escaped from a high security prison,3,0
+fear,I fear I wo n't make it to your wedding party,1,0
+sell,The brothers sell shoes .,2,0
+tip,He tipped off the police about the terrorist plot,1,0
+avoid,Let 's avoid a confrontation .,2,0
+drift,My son drifted around for years in California before going to law school,2,1
+look,She looked over the expanse of land,1,0
+nag,she nagged to take a vacation,1,0
+segregate,the sun segregates the carbon,2,0
+help,This money will help the development of literacy in developing countries,3,0
+head,The list was headed by the name of the president,3,0
+revive,He revived this style of opera,1,0
+harmonize,harmonize the different interests,0,0
+curl,The cigar smoke curled up at the ceiling .,3,1
+synchronize,The clocks synchronize,2,0
+sail,The QE2 will sail to Southampton tomorrow,3,0
+trench,trench the fallen soldiers,0,0
+join,He joined the Communist Party as a young man,1,0
+float,The Republicans are floating the idea of a tax reform,3,1
+tithe,The church was tithed,3,0
+allow,We do n't allow dogs here,3,0
+belong,This student somehow does n't belong,5,0
+reform,The Church reformed me,2,1
+steamroller,steamroller the road,0,0
+sense,This robot can sense the presence of people in the room,3,0
+grow,Corn does n't grow here,3,0
+fracture,The tibia fractured from the blow of the iron pipe .,2,0
+land,He landed several blows on his opponent 's head,1,0
+treat,treat the water so it can be drunk,0,0
+infect,His laughter infects everyone who is in the same room,2,1
+name,She was named Head of the Committee,2,0
+tease,The children teased the new teacher,2,0
+bother,Mosquitoes buzzing in my ear really bothers me,6,0
+fear,I fear the results of the final exams,1,0
+key,We were keyed after the locks were changed in the building,2,1
+salt,She salts her lectures with jokes,1,1
+recall,She was recalled by a loud laugh,2,0
+compose,Greed and ambition composed his personality,3,1
+remember,I ca n't remember saying any such thing,3,0
+preserve,preserve the peace in the family,0,1
+repair,He repaired to his cabin in the woods,1,1
+steam,just steam the vegetables,1,0
+pierce,The cold pierced her bones .,2,1
+flash,he flashed a $ 100 bill,1,1
+condense,All our planets condensed out of the same material,3,0
+assume,This is the day when May was assumed into heaven,7,0
+head,The procession was headed by John,3,1
+stall,The car stalled in the driveway,2,0
+stumble,I stumbled across a long - lost cousin last night in a restaurant,1,1
+invade,""" Hitler invaded Poland on September 1 , 1939 """,2,0
+begin,The number ` one ' begins the sequence,5,0
+gutter,The cooling lava continued to gutter toward lower ground .,5,1
+melt,Hundreds of actors were melting into the scene,4,1
+juggle,She had to juggle her job and her children,3,1
+bow,He bowed before the King,1,0
+affect,Will the new rules affect me ?,4,0
+offset,offset deposits and withdrawals,0,0
+gutter,The roofer began to gutter the buildings .,4,0
+whistle,She whistled for her maid,1,0
+moderate,He moderated his tone when the students burst out in tears,1,0
+change,her mood changes in accordance with the weather,2,0
+design,It is difficult to design a better mousetrap .,4,0
+portray,""" Goya wanted to portray his mistress , the Duchess of Alba """,4,0
+recruit,The party recruited many new members .,2,0
+clean,clean up before you see your grandparents,0,0
+stuff,Have you stuffed the turkey yet ?,2,0
+repair,She repaired her TV set,1,0
+attest,I attest this signature,1,0
+rubricate,""" In this beautiful book , all the place names are rubricated """,11,0
+nod,The teacher nodded when the student gave the right answer,2,0
+excavate,Schliemann excavated Troy .,1,0
+reform,reform the health system in this country,0,0
+agree,The two stories do n't agree in many details,5,0
+report,Snow reported on China in the 1950 's,1,0
+tug,The prisoner tugged at the chains,2,0
+seem,There seems no reason to go ahead with the project now,1,0
+accommodate,Can you accommodate me with a rental car ?,2,0
+plead,She pleaded not guilty .,1,0
+fit,This piece wo n't fit into the puzzle,4,0
+consolidate,consolidate one 's gains,0,0
+report,I reported her to the supervisor,1,0
+treat,Grandmother always treated us to the circus,2,0
+ping,ping your machine in the office,0,0
+engrave,The event engraved itself into her memory,2,1
+please,he could do many things if he pleased,7,0
+heap,He heaped him with work,1,1
+explode,The boss exploded when he heard of the resignation of the secretary,2,1
+repair,One can never fully repair the suffering and losses of the Jews in the Third Reich,4,0
+load,load the bags onto the trucks,0,0
+clog,The market is being clogged by these operations,4,1
+swell,The bellies of the starving children are swelling,7,0
+brush,Johnson brushed the hairs from his jacket,1,0
+credit,She was not properly credited in the program,4,0
+express,She expressed the letter to Florida .,1,0
+retain,The landlord retained the security deposit,2,0
+perturb,She was rather perturbed by the news that her father was seriously ill,3,0
+pledge,I pledged $ 10 a month to my favorite radio station,1,0
+wharf,the big ship wharfed in the evening,3,0
+age,The death of his child aged him tremendously,5,0
+rubricate,the manuscript is not rubricated,4,0
+sound,This record sounds scratchy,2,0
+push,The liberal party pushed for reforms,3,1
+precede,Most English adjectives precede the noun they modify,3,0
+drink,The patient must drink several liters each day,3,0
+fear,I fear she might get aggressive,1,0
+continue,The demonstration continued after a break for lunch,2,0
+continue,We continued to work into the night,1,0
+leak,The news were leaked to the paper,3,1
+synchronize,synchronize this film,0,0
+count,each answer counts as three points,2,0
+brush,brush the bread with melted butter,0,0
+march,They marched the mules into the desert,1,0
+circulate,Blood circulates in my veins .,1,0
+melt,her resistance melted under his charm,2,1
+socialize,The children must be properly socialized,5,0
+rail,rail off the crowds from the Presidential palace,0,0
+dismiss,This case is dismissed !,3,0
+amount,""" The bills amounted to $ 2,000 """,3,0
+tack,He tacked together some verses,1,1
+lock,He locked his hands around her neck .,1,1
+score,She scored high on the SAT .,1,0
+hunt,The oscillator hunts about the correct frequency,2,1
+volley,The attackers volleyed gunshots at the civilians .,2,1
+smother,smother the meat in gravy,0,0
+sustain,We sustained ourselves on bread and water,1,0
+smash,The police smashed the drug ring after they were tipped off,2,1
+age,The death of his wife caused him to age fast,8,0
+communicate,He communicated his anxieties to the psychiatrist,1,0
+count,The academy counts several Nobel Prize winners among its members,2,0
+incline,He inclined his ear to the wise old man,1,0
+emerge,Some nice results emerged from the study,3,1
+refine,many valuable nutrients are refined out of the foods in our modern diet,4,0
+erupt,A rash erupted on her arms after she had touched the exotic plant,2,1
+drift,The stock market drifted upward,3,1
+transfer,transfer the patient to another hospital,0,0
+translate,Braque translated collage into oil,1,1
+finish,The carpenter finished the table beautifully,2,0
+explode,The champagne bottle exploded,3,0
+aim,She wanted to aim a pun,3,1
+drink,The husband drinks and beats his wife,2,0
+sign,He signed to play the casino on December 18 .,1,0
+crush,She was crushed by his refusal of her invitation,2,1
+visit,The principal visited his rage on the students .,2,1
+expect,We were expecting a visit from our relatives,2,0
+loop,The bicycle looped around the tree .,2,1
+glow,The coals were glowing in the dark,3,0
+relate,She relates well to her peers,1,0
+glow,The fireflies were glowing and flying about in the garden,3,0
+register,I 'd like to register this letter,4,0
+bother,Do n't bother the professor while she is grading term papers,2,0
+air,She aired her opinions on welfare,1,1
+reflect,This action reflects his true beliefs,2,1
+hail,The critics hailed the young pianist as a new Rubinstein,2,0
+sift,They sifted through the job candidates .,1,1
+tip,tip the arrow with the small stone,0,0
+admit,He admitted his errors,1,0
+decline,The roof declines here,2,0
+agree,White wine does n't agree with me,4,1
+sell,The French try to sell us their image as great lovers .,4,1
+produce,This procedure produces a curious effect,2,0
+down,He downed three martinis before dinner .,1,1
+land,The drug smugglers landed the heroin on the beach of the island,3,0
+circulate,This letter is being circulated among the faculty .,4,0
+hack,I ca n't hack it anymore,3,1
+escape,We escaped to our summer house for a few days,1,1
+sound,sound a certain note,0,0
+tax,They taxed him failure to appear in court .,1,1
+crown,The speech crowned the meeting,2,1
+include,We must include this chemical element in the group,2,0
+plead,I pleaded with him to stop .,1,0
+pin,pin down the butterfly,0,0
+begin,The novel begins with a murder,2,0
+palpitate,Her violent feelings palpitated the young woman 's heart,3,1
+vegetate,warts and polyps can vegetate if not removed,4,0
+trace,trace the outline of a figure in the sand,0,0
+drain,Life in the camp drained him .,4,1
+tense,he got a phone call from his lawyer that tensed him up,9,0
+divide,The mountain range divides the two countries,3,0
+range,Estimates for the losses in the earthquake range as high as $ 2 billion .,7,0
+restore,The week at the spa restored me,5,0
+heap,heap firewood around the fireplace,0,0
+bolt,Do n't bolt your food !,2,1
+rotate,Interns have to rotate for a few months,3,1
+cook,These potatoes have to cook for 20 minutes,4,0
+drown,She drowned her trouble in alcohol,1,1
+understand,She understands French,1,0
+invite,We invited the neighbors in for a cup of coffee,1,0
+brush,Her long skirt brushed the floor,3,0
+conduct,You can not conduct business like this,3,0
+float,The government floated the ruble for a few months,2,1
+besiege,The Turks besieged Vienna,2,0
+claim,the accident claimed three lives,2,0
+introduce,introduce legislation,0,0
+vegetate,""" After a hard day 's work , I vegetate in front of the television """,9,1
+level,I have to level with you,3,1
+poison,She poisoned her husband but he did not die,1,0
+stampede,Companies will now stampede to release their latest software,3,1
+sustain,She alone sustained her family,2,0
+affect,This new ruling affects your business,3,0
+synchronize,Let 's synchronize our efforts,2,0
+specialize,She specializes in honey bees,1,0
+deform,the heat deformed the plastic sculpture,2,0
+hunt,The King used to hunt these forests,4,0
+relax,The rules relaxed after the new director arrived,2,1
+register,Her surprise did not register,4,0
+face,Turn and face your partner now .,2,1
+raid,Our babysitter raided our refrigerator,2,1
+deflate,The bad review of his work deflated his self - confidence,6,1
+line,sorrow had lined his face,2,1
+port,The big ship was slowly porting,5,0
+address,He always addresses me with ` Sir ' .,2,0
+change,She changed in Chicago on her way to the East coast,1,0
+gravitate,Boys gravitate towards girls at that age,1,0
+aim,I aim to arrive at noon,1,1
+excavate,The mining company wants to excavate the hillside .,5,0
+port,The ship finally ported,3,0
+confuse,Her remarks confused the debate .,2,0
+visit,He was visited with a terrible illness that killed him quickly .,2,1
+allow,Mandela was allowed few visitors in prison,2,0
+splash,The mother splashed the baby 's face with water .,2,0
+escape,Gas escaped into the bedroom,1,0
+consume,The effort to pass the exam consumed all his energy,6,0
+stream,She was streaming with sweat,2,1
+induct,The young geisha was inducted into the ways of her profession .,4,0
+erupt,Vesuvius erupts once in a while,1,0
+plaster,The demonstrators plastered the hallways with posters,2,0
+sense,I sense his hostility,1,0
+prick,The thought of her unhappiness pricked his conscience,5,1
+stamp,stamp fruit extract the juice,0,1
+mean,You never understand what I mean !,5,0
+line,lined books are more enduring,0,0
+nod,The old man was nodding in his chair,4,0
+rejuvenate,The contact with his grandchildren rejuvenated him,5,0
+snort,The addict was snorting cocaine almost every day,3,0
+belong,They belong to the same political party,1,0
+dump,The truck dumped the garbage in the street,2,0
+talk,""" If you do n't oblige me , I 'll talk ! """,10,0
+demand,The bank demanded payment of the loan,2,0
+put,He put her to the torture,1,0
+level,The ground levelled off,2,0
+infect,society was infected by racism,2,1
+plunge,The professor plunged his students into the study of the Italian text,2,1
+peep,He peeped at the woman through the window .,1,0
+trench,The National Guardsmen were sent out to trench,7,0
+grope,He made some sexual advances at the woman in his office and groped her repeatedly,12,0
+flick,He flicked a piece of paper across the table .,1,0
+pose,This poses an interesting question,1,1
+salute,I salute your courage !,1,1
+pierce,The scream pierced the night .,2,1
+whistle,Her optimism whistled away these worries,2,1
+repose,These philosophers reposed the law in the people,2,0
+lighten,""" after a glass of wine , he lightened up a bit """,8,1
+understand,I understand you have no previous experience ?,1,0
+desert,the students deserted the campus after the end of exam period,2,0
+process,He was processed by the sheriff,2,0
+factor,You must factor in the recent developments,2,0
+ramp,The roses ramped over the wall,2,0
+provide,He provides for his large family by working three jobs,1,0
+seem,I seem to be misunderstood by everyone,1,0
+redouble,The noise doubled and redoubled,4,0
+believe,You can not believe this man,3,0
+right,They righted the sailboat that had capsized,1,0
+condense,condense the contents of a book into a summary,0,0
+conduct,Bernstein conducted Mahler like no other conductor,1,0
+revive,Interest in ESP revived,3,1
+answer,The steering of my new car answers to the slightest touch,6,1
+recapture,They tried to recapture the escaped prisoner .,3,0
+vanish,The effect vanished when day broke,2,0
+factor,a quantum computer can factor the number 15,4,0
+attest,This word is not attested until 1993,4,0
+march,He marched into the classroom and announced the exam,1,0
+wallow,wallow in your sorrows,0,1
+warn,The old man warned the children off his property .,3,0
+commit,She committed herself to the work of God,1,0
+port,We were porting all in the club after dinner,2,1
+admit,admit someone to the profession,0,0
+approach,We were approaching our destination,2,0
+gag,The burglars gagged the home owner and tied him to a chair,2,0
+salt,the rebels had salted the fields with mines and traps,3,1
+hurt,She hurt me when she did not include me among her guests,1,1
+condense,The cold air condensed the steam,3,0
+crush,The plastic bottle crushed against the wall,3,0
+shipwreck,You have shipwrecked my career .,2,1
+land,the pilot managed to land the airplane safely,4,0
+assume,I assume his train was late,1,0
+name,Many senators were named in connection with the scandal,3,0
+review,She reviews books for the New York Times,1,0
+interrupt,We interrupt the program for the following messages,1,0
+flush,the sky flushed with rosy splendor,2,1
+face,The two sofas face each other .,3,0
+dehydrate,All this exercise and sweating has dehydrated me .,6,0
+cloud,The stroke clouded memories of her youth .,2,1
+wear,wear one 's hair in a certain way,0,0
+rationalize,""" When one wonders why one is doing certain things , one should rationalize """,13,0
+redouble,The enemy redoubled their screaming on the radio,2,0
+step,The architect wants to step the terrace,4,0
+rail,rail in the old graves,0,1
+act,You should act like an adult,2,0
+name,They named their son David,1,0
+whistle,The bullets whistled past him,2,1
+depress,These news depressed her,2,0
+lend,This story would lend itself well to serialization on television,3,1
+fill,The pool slowly filled with water,3,0
+uproot,The vestiges of political democracy were soon uprooted .,7,1
+lend,Her presence lends a certain cachet to the company,2,0
+exclude,The cost for the trip excludes food and beverages,5,0
+immigrate,Britain immigrated many colonists to America,1,0
+ascend,The path ascended to the top of the hill .,2,0
+stuff,She stuffed herself at the dinner,1,1
+wear,She was wearing yellow that day,2,0
+inherit,I inherited my good eyesight from my mother,1,0
+discolor,The painting discolored .,2,0
+prick,The needle pricked his skin,2,0
+glare,The moon glared back at itself from the lake 's surface,2,1
+fill,He filled up on turkey,1,0
+consider,consider the possibility of moving,0,0
+sift,He sifted the information .,1,1
+lie,Lie down on the bed until you feel better .,0,0
+attend,She attends the old lady in the wheelchair,1,0
+negociate,The hiker negociated the high mountain pass,2,1
+vegetate,This fungus usually vegetates vigorously,3,0
+review,let 's review your situation,2,0
+spat,Bullets were spatting down on us,2,0
+grab,She grabbed the child 's hand and ran out of the room,1,0
+drift,snow drifting several feet high,1,0
+provide,We provided the room with an electrical heater,1,0
+absorb,He absorbed the costs for the accident .,1,1
+confront,You must confront your opponent,2,0
+moderate,moderate your alcohol intake,0,0
+leak,Water leaked out of the can into the backpack,1,0
+engrave,engrave the pen with the owner 's name,0,0
+approach,Winter is approaching,2,0
+write,She writes code faster than anybody else .,1,0
+grow,He grows vegetables in his backyard,1,0
+drown,He drowned the kittens,1,0
+name,His name was mentioned in connection with the invention,1,0
+tie,These big jets are tied to large airports,4,1
+express,Many of the laboratory animals express the trait .,5,1
+count,you can count on me to help you any time,2,1
+plaster,plaster the broken arm,0,0
+tax,The State taxes alcohol heavily .,2,0
+scale,The troops scaled the walls of the fort,2,0
+scale,This model must be scaled down,4,0
+taste,We tasted wines last night,1,0
+reenact,Congress reenacted the law,1,0
+miss,She missed her train,1,0
+swell,The music swelled to a crescendo,2,1
+stagnate,blood stagnates in the capillaries,1,0
+note,Take note of this chemical reaction,1,0
+look,The child looks unhappy,2,0
+blaze,The summer sun alone can cause a pine to blaze .,9,0
+include,I include you in the list of culprits,1,0
+refer,There were lots of questions referring to her talk,5,0
+flap,The bird 's wings were flapping,5,0
+attack,The cancer cells are attacking his liver,4,0
+socialize,Children have to be socialized in school,4,0
+attack,The editors of the left - leaning paper attacked the new House Speaker,8,1
+right,right a wrongs done to the victims of the Holocaust,0,0
+breathe,Our new synthetic fabric breathes and is perfect for summer wear,4,1
+stimulate,Coffee and tea stimulate me,3,0
+translate,the growth in income translates into greater purchasing power,4,0
+stoop,The eagle stooped on the mice in the field .,2,0
+dawn,It dawned on him that she had betrayed him,1,1
+buzz,This office is buzzing with activity,3,1
+time,The good player times his swing so as to hit the ball squarely .,3,0
+continue,We can not continue several servants any longer,3,0
+involve,This decision involves many changes,2,0
+smother,the butter cream smothered the cake,3,1
+abuse,Her husband often abuses alcohol .,3,1
+want,I want to go home now,1,0
+paste,paste the wall with burlap,0,0
+air,air the old winter clothes,0,0
+face,The building was faced with beautiful stones .,3,1
+negociate,negociate securities,0,0
+tax,You are taxing my patience .,2,1
+steam,her indifference to his amorous advances really steamed the young man,7,1
+drain,The rain water drains into this big vat .,3,0
+vegetate,The bacterial growth vegetated along,3,0
+produce,We produce more cars than we can sell,1,0
+culminate,The meeting culminated in a tearful embrace .,2,1
+gutter,The heavy rain guttered the soil .,3,1
+confuse,These questions confuse even the experts .,2,0
+produce,The proud father produced many pictures of his baby,3,0
+fuel,""" fuel aircraft , ships , and cars """,1,0
+plead,She was pleading insanity .,2,0
+tease,the flirting man teased the young woman,3,0
+design,She designed to go far in the world of business .,1,0
+transfer,I transferred my stock holdings to my children,1,0
+volley,Gun shots volleyed at the attackers .,2,1
+propagate,Sound or light can be propagated through air .,5,0
+oppose,We oppose the ban on abortion,1,0
+tease,The advertisement is intended to tease the customers,5,0
+inform,The principles that inform modern teaching,3,0
+splash,Water was splashing on the floor .,2,0
+deflate,The balloons deflated,2,0
+act,She acts in this play,1,0
+stimulate,The book stimulated her imagination,2,0
+remember,He remembered her in his will,1,0
+note,she noted everything the teacher said that morning,1,0
+agree,She agreed to all my conditions,1,0
+help,She helped herself to some of the office supplies,1,0
+devour,he devoured three sandwiches,1,0
+dawn,The age of computers had dawned,5,1
+confirm,The witnesses confirmed the victim 's account,2,0
+sit,When does the court of law sit ?,6,1
+leak,The news leaked out despite his secrecy,2,1
+claw,She clawed the doorknob .,1,1
+radiate,The sun radiates heat,2,0
+exhaust,This kind of work exhausts me .,4,0
+consume,The fire consumed the building,2,1
+circulate,She circulates among royalty .,1,1
+square,one idea squares with the other one,2,1
+visualize,""" With this machine , ultrasound can be visualized . """,8,0
+blast,She tended to blast when speaking into a microphone,3,1
+stagnate,There are marshes that stagnate the waters,4,0
+blend,This flavor will blend with those in your dish .,3,0
+consolidate,The mud had consolidated overnight,3,0
+twist,Do n't twist my words,2,1
+fasten,This dress fastens in the back .,2,0
+assume,When will the new President assume office ?,5,0
+wrestle,The children wrestled in the garden .,2,0
+fuel,fuel the debate on creationism,0,1
+breathe,He breathed new life into the old house,1,1
+convulse,earthquakes convulsed the countryside,1,0
+report,Dozens of incidents of wife beatings are reported daily in this city,7,0
+fit,He fitted other pieces of paper to his cut - out,1,0
+palpitate,His heart palpitated,2,0
+vegetate,They vegetated the hills behind their house,1,0
+review,she reviewed her achievements with pride,1,0
+eat,We did not eat until 10 P.M. because there were so many phone calls,3,0
+count,Can you count the books on your shelf ?,2,0
+dance,My husband and I like to dance at home to the radio .,6,0
+challenge,She challenged his claims,1,0
+walk,I 'll walk you to your car,2,0
+begin,This economic measure does n't even begin to deal with the problem of inflation,6,0
+color,The child colored the drawings,2,0
+warn,The director warned him that he might be fired .,2,0
+crawl,European children learn the breast stroke ; they often do n't know how to crawl,14,0
+visit,""" Every summer , we visited our relatives in the country for a month . """,5,0
+attend,She attends class regularly,1,0
+drift,drift the cattle herds westwards,0,0
+shake,The bad news shook her hopes .,3,1
+segregate,Many towns segregated into new counties,2,0
+note,She noted that someone was following her,1,0
+clap,The children were clapping to the music,3,0
+refine,refine a method of analysis,0,0
+suck,The current boom in the economy sucked many workers in from abroad,6,1
+indicate,These symptoms indicate a serious illness,2,0
+date,The package is dated November 24,3,0
+water,His eyes were watering,3,0
+abuse,The actress abused the policeman who gave her a parking ticket .,2,1
+land,this may land you in jail,2,1
+back,back this enterprise,0,0
+repose,Mao reposes in his mausoleum,1,0
+jam,the mechanism jammed,2,0
+hurt,Were you hurting after the accident ?,2,0
+help,These pills will help the patient,3,0
+buzz,he buzzed the servant,1,1
+stamp,His playing stamps him as a Romantic,2,1
+capture,This nucleus has captured the slow - moving neutrons,3,0
+besiege,The press photographers besieged the movie star,3,0
+spray,spray the wall with paint,0,0
+gag,The students were gagging during dinner,3,0
+reach,Government reaches out to the people,1,1
+dash,dashed ambitions and hopes,0,1
+melt,The wax melted in the sun,2,0
+top,The hikers topped the mountain just before noon,2,1
+spell,He spelled the word wrong in this letter,1,0
+accommodate,This hotel can accommodate 250 guests,3,0
+bow,He bowed before the King,1,0
+crown,The prince was crowned in Westminster Abbey,3,0
+credit,We credited her for saving our jobs,1,0
+precipitate,Our economy precipitated into complete ruin,2,1
+indicate,Tetracycline is indicated in such cases,2,0
+seize,The sales clerk quickly seized the money on the counter,4,0
+back,back into the driveway,0,0
+recall,recall the defective auto tires,0,0
+crush,The car crushed the toy,2,0
+spot,spot the areas that one should clearly identify,0,0
+clog,Fear clogged her mind,1,1
+sense,I sensed the real meaning of his letter,1,0
+converge,Social forces converged to bring the Fascists back to power .,2,1
+offset,offset the conference proceedings,0,0
+plunge,It plunged to the bottom of the well,1,0
+exclude,The bad results were excluded from the report,4,0
+tense,the bodybuilder 's neck muscles tensed ;,5,0
+devour,Fire had devoured our home,2,1
+incline,Their language inclines us to believe them,2,1
+distill,distill the essence of this compound,0,0
+drain,We drained the oil tank .,1,0
+lock,They were locked in embrace .,2,1
+relax,our new colleague relaxed when he saw that we were a friendly group,3,0
+predicate,solving the problem is predicated on understanding it well,4,0
+sift,The soldiers sifted through the woods .,2,1
+blend,She blended the nuts and raisins together .,1,0
+like,She likes to read Russian novels,1,0
+test,She tested high on the LSAT and was admitted to all the good law schools,1,0
+assimilate,Immigrants often want to assimilate quickly,4,0
+stagger,The drunken man staggered into the room .,3,0
+shipwreck,The vessel was shipwrecked .,3,0
+assume,He assumed to himself the right to fill all positions in the town,1,0
+pound,the salesman pounded the door knocker,2,0
+revive,A hot soup will revive me,4,1
+poison,This mushrooms can poison,3,0
+digest,Protein digests in a few hours,1,0
+flash,A shooting star flashed and was gone,3,0
+piece,He pieced at the sandwich all morning,1,1
+discolor,The shirts discolored .,2,0
+bind,The hydrogen binds the oxygen .,2,0
+attend,Menuhin 's playing was attended by a 15-minute standing ovation,4,0
+precede,Stone tools precede bronze tools,2,0
+consolidate,The companies consolidated,2,0
+execute,The President executed the treaty,2,0
+digest,I can not digest milk products,3,0
+solicit,She is too shy to solicit .,5,0
+inflate,The charges were inflated,3,1
+excuse,excuse someone 's behavior,0,0
+live,People lived in Africa millions of years ago,1,0
+grope,His mind groped to make the connection,2,1
+swim,the meat was swimming in a fatty gravy,3,1
+supplicate,He supplicated the King for clemency,1,0
+stumble,She stumbled over the tree root,1,0
+tug,The tugboat tugged the freighter into the harbor,2,0
+synchronize,synchronize your watches,0,0
+root,the pig was rooting for truffles,3,0
+change,His voice began to change when he was 12 years old,4,0
+paint,He painted his mistress many times,1,0
+float,The dancer floated across the stage,2,1
+flick,The father flicked him with his hand .,2,1
+sharpen,We had to sharpen our arguments,3,1
+swallow,Am I supposed to swallow that story ?,4,1
+pour,Put on your rain coat -- it 's pouring outside !,8,1
+suck,suck the poison from the place where the snake bit,0,0
+transfer,transfer the packet from his trouser pockets to a pocket in his jacket,0,0
+cloud,Their faces were clouded with sadness .,3,1
+worry,I worry about the second Germanic consonant shift,1,0
+appear,Did your latest book appear yet ?,4,0
+ascend,Inheritance may not ascend linearly .,3,1
+blast,the gunman blasted away,2,0
+interrupt,She interrupted her pregnancy,1,1
+please,These colors please the senses,2,0
+solicit,Henry IV solicited the Pope for a divorce .,2,0
+treat,The doctor treated my broken leg,2,0
+perturb,The orbits of these stars were perturbed by the passings of a comet,6,1
+load,He loaded his gun carefully,1,0
+appeal,Appeal to somebody for help !,0,1
+twist,The wrestler twisted his shoulder,2,0
+clean,The other players cleaned him completely,3,0
+fracture,This writer really fractures the language .,3,1
+like,How did you like the President 's speech last night ?,3,0
+replace,Smith replaced Miller as CEO after Miller left,1,0
+fuel,The tanker fueled in Bahrain,2,0
+score,They scored the SAT essays .,1,0
+trace,The children traced along the edge of the dark forest,2,1
+spell,the workers spell every four hours,2,1
+avoid,Muslims avoid tobacco during the day .,1,0
+circulate,The fan circulates the air in the room .,2,0
+provide,The hostess provided lunch for all the guests,2,0
+reenact,They reenacted the battle of Princeton,1,0
+deflate,deflate the air mattress,0,0
+induct,There was a ceremony to induct the president of the Academy .,5,0
+challenge,The illegal immigrant was challenged by the border guard,4,0
+head,where is she heading,3,0
+stream,Tears streamed down her face,1,0
+amount,This idea will never amount to anything,4,1
+reflect,Drive carefully -- the wet road reflects,6,0
+recapture,The military forces managed to recapture the fort .,5,0
+pour,People were pouring out of the theater .,2,1
+talk,She talks a lot of nonsense .,1,0
+ask,She asked him for a loan,1,0
+shower,He was showered with praise,2,1
+lighten,The room lightened up,2,0
+portray,The father is portrayed as a good - looking man in this painting,3,0
+replace,replace the book on the shelf after you have finished reading it,0,0
+miss,I missed that remark,1,0
+inherit,The new chairman inherited many problems from the previous chair,3,0
+consider,They considered the possibility of a strike,1,0
+blur,The distinction between the two theories blurred,6,1
+provide,provide for the proper care of the passengers on the cruise ship,0,0
+condemn,the county condemned the land to build a highway,2,0
+reform,reform a political system,0,0
+seat,The host seated me next to Mrs. Smith,2,0
+sequester,He sequestered himself in his study to write a book,1,0
+attack,I attacked the problem as soon as I got out of bed,1,1
+stall,""" she does n't want to write the report , so she is stalling """,13,0
+flood,The swollen river flooded the village,3,0
+end,She ended their friendship when she found out that he had once been convicted of a crime .,1,0
+cloud,The smoke clouded above the houses .,2,0
+sensitize,sensitize the photographic film,0,0
+tie,The teams drew a tie,4,0
+lie,She lied when she told me she was only 29 .,1,0
+lie,The fate of Bosnia lies in the hands of the West .,4,1
+mellow,Age and experience mellowed him over the years,3,0
+gather,She gathered her shawl around her shoulders .,1,0
+express,Italians express coffee rather than filter it .,1,0
+vote,vote the Democratic ticket,0,0
+scale,This bike scales only 25 pounds,2,0
+tie,The fishermen tied their flies,2,0
+exhaust,One should not exhaust one 's savings .,3,1
+radiate,Heat radiated from the metal box,1,0
+stamp,a man whose name is permanently stamped on our maps,6,1
+dash,She dashed into the yard,1,0
+trail,John trailed behind his class mates .,1,1
+affect,the medicine affects my heart rate,2,0
+dump,The company dumped him after many years of service,2,1
+vouch,Will he vouch for me ?,2,0
+process,They processed into the dining room,1,0
+test,She does n't test well,3,0
+ruin,This behavior will ruin your chances of winning the election,3,0
+design,Chanel designed the famous suit .,1,0
+scorch,The exposed tree scorched in the hot sun .,3,1
+blaze,He blazed away at the men .,1,1
+recall,The company recalled the product when it was found to be faulty,2,0
+bow,She bowed before the Queen,1,0
+answer,She did n't want to answer,5,0
+put,We put the time of arrival at 8 P.M.,1,0
+refine,refine one 's style of writing,0,0
+level,The building was levelled,3,0
+quote,He said he could quote several instances of this behavior .,4,0
+kick,The boy kicked the dog .,2,0
+poison,She poisoned her husband,1,0
+confront,The child screamed when he confronted the man in the Halloween costume,5,0
+continue,We continued our research into the cause of the illness,1,0
+help,""" I served him three times , and after that he helped himself """,11,0
+ruin,You have ruined my car by pouring sugar in the tank !,2,0
+administer,administer a program,0,0
+gain,She gained 20 pounds when she stopped exercising,1,0
+sign,They signed two new pitchers for the next season .,1,1
+specialize,She specializes in Near Eastern history,1,0
+drift,stock prices are drifting higher,3,1
+remit,The taxes were remitted,3,0
+waste,Do n't waste a joke on an unappreciative audience .,2,1
+reach,The sunlight reached the wall,2,0
+salute,""" When the officers show up , the soldiers have to salute """,11,0
+believe,I believe that he will come back from the war,1,0
+test,The teacher tests us every week,2,0
+fracture,These events could fracture the balance of power .,3,1
+lean,He leaned his rifle against the wall,1,0
+constitutionalize,A woman 's right to an abortion was constitutionalized in the 1970 's,8,0
+expect,She is expecting in March,2,0
+restore,restore law and order,0,0
+redound,Fame redounds to the heroes .,1,1
+answer,The defendant answered to all the charges of the prosecution,2,0
+hail,It hailed for an hour,1,0
+gutter,Tears guttered down her face .,1,1
+impress,This child impressed me as unusually mature,2,0
+acquaint,Please acquaint your colleagues of your plans to move .,1,0
+thrill,The children were thrilled at the prospect of going to the movies,3,0
+relax,relax the tension on the rope,0,0
+stagger,The architect decided to stagger the chairs in the lecture hall .,4,0
+push,She is pushing fifty,2,1
+push,she pushed against the wall with all her strength,1,0
+harmonize,The colors do n't harmonize,4,1
+pump,The athlete pumps weights in the gym .,2,0
+walk,He walks the horse up the mountain .,1,0
+ruffle,The bird ruffled its feathers .,2,0
+match,The two pieces match .,3,0
+confront,We confronted him with the evidence,1,0
+propagate,The genes propagate these characteristics to the offspring .,2,0
+review,I reviewed the material before the test,1,0
+shower,You should shower after vigorous exercise,2,0
+remember,remember me in your prayers,0,0
+invite,Can I invite you for dinner on Sunday night ?,2,0
+leak,The container leaked gasoline,2,0
+plunge,the stock market plunged,3,0
+salute,a terrible stench saluted our nostrils,3,1
+challenge,Fischer challenged Spassky to a match,1,0
+thunder,The river thundered below .,2,1
+distill,The acid distills at a specific temperature,2,0
+shower,Meteors showered down over half of Australia,1,0
+design,Dupont designs for the house of Chanel .,1,0
+sit,I can not baby - sit tonight ; I have too much homework to do,5,1
+look,We looked all day and finally found the child in the forest,1,0
+push,He pushed her to finish her doctorate,1,1
+socialize,Health care should be socialized !,4,0
+denote,` multi- ' denotes ` many ',3,0
+ping,I 'll ping my accountant -- April 15 is nearing,2,1
+redound,Everything redounded to his glory .,1,1
+air,This show will air Saturdays at 2 P.M.,3,1
+spread,the infection spread,2,0
+sell,These books sell like hot cakes .,2,0
+swallow,I swallowed my anger and kept quiet,1,1
+stall,The inexperienced driver kept stalling the car,4,0
+offset,His skills offset his opponent 's superior strength,2,0
+scan,the surgeon scanned the X - ray,2,0
+express,Can you express this distance in kilometers ?,2,0
+down,Some people can down a pound of meat in the course of one meal .,3,1
+juggle,juggle an account so as to hide a deficit,0,1
+bolt,The listeners bolted when he discussed his strange ideas,2,0
+name,name your accomplices !,0,0
+divide,Can you divide 49 by seven ?,2,0
+propagate,Sound and light propagate in this medium .,3,0
+pin,The child was pinned under the fallen tree,3,0
+flow,The champagne flowed at the wedding,2,1
+recapture,She could not recapture that feeling of happiness .,3,1
+repose,The nation reposed its confidence in the King,2,0
+locate,The company located some of their agents in Los Angeles .,2,0
+top,They topped off their dinner with a cognac .,1,1
+acknowledge,The Crown Prince was acknowledged as the true heir to the throne,4,0
+understand,You do n't need to explain -- I understand !,8,0
+swim,this snake swims through the soil where it lives,2,0
+tack,The sailors decided to tack the boat,4,0
+deform,The sidewalk deformed during the earthquake,2,0
+boost,The tax cut will boost the economy .,4,1
+believe,I believed his report,1,0
+bother,The mere thought of her bothered him and made his heart beat faster,5,0
+walk,""" Walk , do n't run ! """,1,0
+revive,The doctors revived the comatose man,2,0
+correct,the stock market corrected,3,1
+constitutionalize,A good way of exercising is to constitutionalize,7,0
+tithe,""" Although she left the church officially , she still tithes """,10,0
+gallop,Did you gallop the horse just now ?,2,0
+appeal,He was found guilty but appealed immediately .,5,0
+neutralize,She neutralized the solution,1,0
+push,The salesman is aggressively pushing the new computer model,4,1
+smash,He smashed a 3-run homer,1,1
+taste,The ex - slave tasted freedom shortly before she died,4,1
+tense,alternately relax and tense your calf muscle,3,0
+include,The list includes the names of many famous writers,2,0
+ignite,Great heat can ignite almost any dry matter,3,0
+precede,Bill preceded John in the long line of Susan 's husbands,1,0
+process,The results of the elections were still being processed when he gave his acceptance speech,8,0
+stoop,The old man was stooping but he could walk around without a cane .,4,0
+buy,This sum will buy you a ride on the train,3,0
+cheer,everybody cheered the birthday boy,1,0
+miss,""" Fortunately , I missed the hurricane """,4,0
+gain,The home team was gaining ground,4,0
+heap,heap the platter with potatoes,0,0
+march,The Japanese marched their prisoners through Manchuria,2,0
+socialize,He never socializes with his colleagues,2,0
+besiege,She was besieged by so many problems that she got discouraged,2,1
+recruit,They recruited new soldiers .,1,0
+curl,She curled farther down under the covers .,1,1
+govern,Who is governing the country now ?,2,0
+assign,We were assigned new uniforms .,2,0
+stagnate,The old man sat and stagnated on his porch,5,0
+preserve,We preserve these archeological findings,1,0
+talk,The baby talks already .,2,0
+form,the water formed little beads,2,0
+color,My personal feelings color my judgment in this case,3,1
+spell,How do you spell this word ?,3,0
+lock,The therapist noticed that the patient 's knees tended to lock in this exercise .,10,0
+invade,The cancer had invaded her lungs,3,0
+flow,The artist flowed the washes on the paper,2,1
+wish,I wish that Christmas were over .,1,0
+treat,I treated his advances as a joke,1,0
+convulse,The spasm convulses her facial muscles,2,0
+ferment,The Middle East is fermenting,4,1
+appreciate,Do you appreciate the full meaning of this letter ?,2,0
+answer,She must answer for her actions,2,0
+ignite,The ostentatious way of living of the rich ignites the hatred of the poor,8,1
+walk,The lovers held hands while walking .,5,0
+join,She joined him for a drink,1,0
+ignite,Marsh gases ignited suddenly,2,0
+vote,He voted for the motion,1,0
+tip,Remember to tip the waiter,2,0
+consider,You must consider her age,2,0
+condemn,We condemn the racism in South Africa,1,0
+acquaint,You should acquaint yourself with your new computer .,2,0
+vanish,the money vanished in las Vegas,2,0
+top,A star tops the Christmas Tree .,2,0
+land,the enemy landed several of our aircraft,2,0
+design,She designed a good excuse for not attending classes that day .,1,1
+culminate,The helmet culminated in a crest .,2,0
+register,Did you register any change when I pressed the button ?,2,0
+kick,He kicked the extra point after touchdown .,1,0
+orient,We had to orient ourselves in the forest,3,0
+plunge,She plunged at it eagerly,1,0
+want,This piano wants the attention of a competent tuner,2,1
+sharpen,This drug will sharpen your vision,3,1
+wharf,wharf the passengers,0,1
+square,He squared his shoulders,1,1
+join,join these two parts so that they fit together,0,0
+grow,The tree trunks had grown together,4,0
+restore,restore the forest to its original pristine condition,0,0
+exploit,He exploit the new taxation system,1,0
+design,This room is not designed for work .,4,0
+appear,He had to appear in court last month,3,0
+appreciate,The Germans want to appreciate the Deutsche Mark,4,0
+admit,The French doors admit onto the yard,3,0
+flap,The bird flapped its wings,2,0
+consolidate,consolidate fibers into boards,0,0
+clamor,They clamored the mayor into building a new park,1,0
+induct,We were inducted into the honor society .,2,0
+recast,He was recast as Iago .,2,0
+communicate,communicate a disease,0,0
+expect,I 'm expecting a full explanation as to why these files were destroyed,2,0
+vanish,An entire civilization vanished,3,0
+plaster,She plastered warnings all over the wall,1,0
+fire,The boss fired his secretary today,2,0
+tease,The children teased the boy because of his stammer,2,0
+blur,The fog blurs my vision,2,0
+lock,She locked her jewels in the safe .,1,0
+precipitate,The bridge broke and precipitated the train into the river below,4,1
+buy,I ca n't buy this story,3,1
