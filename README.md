@@ -13,13 +13,13 @@ Brief intro for each folder:
 
 - corpora: contains raw datasets published online by researchers. can ignore.
 
-- data: contains formatted version of each corpus. Details see notes in data repo.
+- data: contains formatted version of each corpus. Check notes in data folder for details.
 
-- baseline: lexical baseline for MOH-X (10-fold cross-validation), TroFi and VUA.
+- baseline: lexical baseline for MOH-X (10-fold cross-validation), TroFi, and VUA dataset.
 
-- context: biLSTM for classification task
+- context: biLSTM for classification task.
 
-- sequence: biLSTM for sequence labeling task
+- sequence: biLSTM for sequence labeling task.
 
 ## Embeddings
 1. GloVe
@@ -32,15 +32,16 @@ The ELMo data will release upon request by other means, since they are too large
 
 We have ELMo vectors for MOH-X, TroFi and VUA dataset with train/dev/test division. 
 
-## Installation (TODO: details to be checked)
+## Installation
 1. This project is developed in Python 3.6. Using Conda to set up a virtual enviroment is recommended.
 
-2. Visit http://pytorch.org/, and install the PyTorch package. (TODO: add version here)
-
-3. Install the required dependencies. (TODO: prepare requirements.txt)
+2. Install the required dependencies. 
     ```
     pip install -r requirements.txt
     ```
+    
+3. Install PyTorch from http://pytorch.org/.
+
 
 ## Reproduction (TODO: details to be added)
 1. classificaiton task
