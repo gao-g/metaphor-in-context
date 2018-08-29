@@ -1,5 +1,5 @@
 # metaphor-in-context
-Code for [_._] TODO: Add URL
+Code for [Neural Metaphor Detection in Context](TODO: Add URL).
 
 ## Table of Contents
 - [Repo Basics](#Basics)
@@ -17,9 +17,9 @@ Brief intro for each folder:
 
 - baseline: lexical baseline for MOH-X, TroFi, and VUA dataset.
 
-- context: biLSTM for verb classification task.
+- context: BiLSTM for verb classification task.
 
-- sequence: biLSTM for sequence labeling task.
+- sequence: BiLSTM for sequence labeling task.
 
 ## Embeddings
 1. GloVe
@@ -43,12 +43,11 @@ We have ELMo vectors for MOH-X, TroFi, and VUA dataset with train/dev/test divis
 3. Install PyTorch from http://pytorch.org/.
 
 
-## Reproduction (TODO: details to be checked)
-(Check the default hyperparameter setup)
+## Reproduction
 
 1. classificaiton task (classification model): Check the main_XXX.py in the folder context.
 
-2. sequence labeling task (labeling model): Check the main_XXX.py in the folder sequence.
+2. sequence labeling task (sequence labeling model): Check the main_XXX.py in the folder sequence.
 
 Overall guideline:
 
@@ -64,4 +63,11 @@ Overall guideline:
 
 
 ## Reference
-(TODO: details to be added)
+```
+@InProceedings{TODO,
+  author    = {Ge Gao, Eunsol Choi, Yejin Choi, and Luke Zettlemoyer},
+  title     = {Neural Metapor Detection in Context},
+  booktitle = {EMNLP},
+  year      = {2018}
+}
+```
