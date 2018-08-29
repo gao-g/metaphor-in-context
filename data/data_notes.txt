@@ -30,11 +30,12 @@ TroFi-X: (not used)
 VUA:
 - VU Amsterdam Metaphor Corpus (Steen et al., 2010)
 - with train/dev/test split
-- from NAACL 2018 shared task
+- from NAACL 2018 shared task: verb classification
 
 VUAsequence:
 - VU Amsterdam Metaphor Corpus (Steen et al., 2010)
 - with train/dev/test split
+- used for sequence labeling
 
 Yulia: (not used)
 - A test dataset created and used by Tsvetkov et. al.
