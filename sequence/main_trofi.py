@@ -47,7 +47,7 @@ with open('../data/TroFi/TroFi_formatted_all3737.csv') as f:
         verb_idx = int(line[2])
         verb_label = int(line[3])
         label_seq[verb_idx] = verb_label
-        pos_seq[verb_idx] = 1   # idx2pos = {0: 'not focus verb', 1: 'focus verb'}
+        pos_seq[verb_idx] = 1   # idx2pos = {0: 'words that are not focus verbs', 1: 'focus verb'}
         raw_trofi.append([sentence.strip(), label_seq, pos_seq])
 
 
@@ -69,6 +69,7 @@ word2idx, idx2word = get_word2idx_idx2word(vocab)
 # glove_embeddings a nn.Embeddings
 glove_embeddings = get_embedding_matrix(word2idx, idx2word, normalization=False)
 # elmo_embeddings
+# set elmos_trofi=None to exclude elmo vectors. Also need to change the embedding_dim in later model initialization
 elmos_trofi = h5py.File('../elmo/TroFi3737.hdf5', 'r')
 
 
@@ -79,7 +80,6 @@ embed the datasets
 random.seed(0)
 random.shuffle(raw_trofi)
 
-elmos_trofi = None
 # second argument is the post sequence, which we don't need
 embedded_trofi = [[embed_indexed_sequence(example[0], example[2], word2idx,
                                       glove_embeddings, elmos_trofi, None),
@@ -103,7 +103,7 @@ for i in range(10):
                       poss[i * fold_size:(i + 1) * fold_size],
                       labels[i * fold_size:(i + 1) * fold_size]))
 
-idx2pos = {0: 'not-focus verb', 1: 'focus verb'}
+idx2pos = {0: 'words that are not focus verbs', 1: 'focus verb'}
 
 optimal_f1s = []
 optimal_ps = []
@@ -147,7 +147,7 @@ for i in range(10):
     # dropout3: dropout on hidden state of RNN to linear layer
     RNNseq_model = RNNSequenceModel(num_classes=2, embedding_dim=300+1024, hidden_size=300,
                                     num_layers=1, bidir=True,
-                                    dropout1=0.5, dropout2=0, dropout3=0.5)
+                                    dropout1=0.5, dropout2=0, dropout3=0.2)
     # Move the model to the GPU if available
     if using_GPU:
         RNNseq_model = RNNseq_model.cuda()
@@ -156,7 +156,7 @@ for i in range(10):
     # Set up an optimizer for updating the parameters of the rnn_clf
     rnn_optimizer = optim.Adam(RNNseq_model.parameters(), lr=0.001)
     # Number of epochs (passes through the dataset) to train the model for.
-    num_epochs = 20
+    num_epochs = 10
 
     '''
     3. 2
@@ -201,30 +201,34 @@ for i in range(10):
                 val_f1.append(performance_matrix[1][2])
                 val_acc.append(performance_matrix[1][3])
                 print("Iteration {}. Validation Loss {}.".format(num_iter, avg_eval_loss))
-
+#                 avg_eval_loss, performance_matrix = evaluate(idx2pos, train_dataloader_trofi, RNNseq_model,
+#                                                              loss_criterion, using_GPU)
+#                 train_loss.append(avg_eval_loss)
+#                 train_f1.append(performance_matrix[1][1])
+#                 print("Iteration {}. Training Loss {}.".format(num_iter, avg_eval_loss))
     print("Training done for fold {}".format(i))
 
     """
     3.3
     plot the training process: MET F1 and losses for validation and training dataset
     """
-    plt.figure(0)
-    plt.title('F1 for TroFI dataset on fold ' + str(i))
-    plt.xlabel('iteration (unit:200)')
-    plt.ylabel('F1')
-    plt.plot(val_f1, 'g')
-    #     plt.plot(train_f1, 'b')
-    plt.legend(['Validation F1', 'Training F1'], loc='upper right')
-    plt.show()
+#     plt.figure(0)
+#     plt.title('F1 for TroFI dataset on fold ' + str(i))
+#     plt.xlabel('iteration (unit:200)')
+#     plt.ylabel('F1')
+#     plt.plot(val_f1, 'g')
+#     #     plt.plot(train_f1, 'b')
+#     plt.legend(['Validation F1', 'Training F1'], loc='upper right')
+#     plt.show()
 
-    plt.figure(1)
-    plt.title('Loss for TroFi dataset on fold ' + str(i))
-    plt.xlabel('iteration (unit:200)')
-    plt.ylabel('Loss')
-    plt.plot(val_loss, 'g')
-    #     plt.plot(train_loss, 'b')
-    plt.legend(['Validation loss', 'Training loss'], loc='upper right')
-    plt.show()
+#     plt.figure(1)
+#     plt.title('Loss for TroFi dataset on fold ' + str(i))
+#     plt.xlabel('iteration (unit:200)')
+#     plt.ylabel('Loss')
+#     plt.plot(val_loss, 'g')
+#     #     plt.plot(train_loss, 'b')
+#     plt.legend(['Validation loss', 'Training loss'], loc='upper right')
+#     plt.show()
 
     """
     store the best f1
@@ -254,14 +258,14 @@ print('Precision on TroFi = ', np.mean(np.array(optimal_ps)))
 print('Recall on TroFi = ', np.mean(np.array(optimal_rs)))
 print('F1 on TroFi = ', np.mean(np.array(optimal_f1s)))
 print('Accuracy on TroFi = ', np.mean(np.array(optimal_accs)))
-plt.figure(2)
-plt.title('F1 for TroFi dataset on ten folds')
-plt.xlabel('fold')
-plt.ylabel('F1')
-plt.plot(optimal_ps,'r')
-plt.plot(optimal_rs,'b')
-plt.plot(optimal_f1s,'g')
-plt.plot(optimal_accs,'c')
-plt.plot([np.mean(np.array(optimal_f1s))] * 10, 'y')
-plt.legend(['precision for each fold', 'recall for each fold', 'F1 for each fold', 'accuracy for each fold', 'Average F1'], loc='upper right')
-plt.show()
+# plt.figure(2)
+# plt.title('F1 for TroFi dataset on ten folds')
+# plt.xlabel('fold')
+# plt.ylabel('F1')
+# plt.plot(optimal_ps,'r')
+# plt.plot(optimal_rs,'b')
+# plt.plot(optimal_f1s,'g')
+# plt.plot(optimal_accs,'c')
+# plt.plot([np.mean(np.array(optimal_f1s))] * 10, 'y')
+# plt.legend(['precision for each fold', 'recall for each fold', 'F1 for each fold', 'accuracy for each fold', 'Average F1'], loc='upper right')
+# plt.show()
