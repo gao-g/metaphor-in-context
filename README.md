@@ -1,5 +1,5 @@
 # metaphor-in-context
-Code for [Neural Metaphor Detection in Context](TODO: Add URL).
+Code for [Neural Metaphor Detection in Context](https://arxiv.org/pdf/1808.09653.pdf).
 
 ## Table of Contents
 - [Repo Basics](#Basics)
@@ -64,7 +64,7 @@ Overall guideline:
 
 ## Reference
 ```
-@InProceedings{TODO,
+@InProceedings{gao18nmd,
   author    = {Ge Gao, Eunsol Choi, Yejin Choi, and Luke Zettlemoyer},
   title     = {Neural Metapor Detection in Context},
   booktitle = {EMNLP},
