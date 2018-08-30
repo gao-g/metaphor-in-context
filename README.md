@@ -6,7 +6,7 @@ Code for [Neural Metaphor Detection in Context](https://arxiv.org/pdf/1808.09653
 - [Get Embeddings](#Embeddings)
 - [Installation](#Installation)
 - [Reproduce the Results](#Reproduction)
-- [Reference](#Reference)
+- [Citation](#Citation)
 
 ## Basics
 Brief intro for each folder:
@@ -51,18 +51,40 @@ We have ELMo vectors for MOH-X, TroFi, and VUA dataset with train/dev/test divis
 
 Overall guideline:
 
-- main_XXX.py is the training and testing script for classification or labeling model on dataset XXX. 
+- main_XXX.py is the training and testing script for classification model or sequence labeling model on dataset XXX. 
 
-- All main_XXX.py shares the variable naming convection and similar code structure.
+- All main_XXX.py scripts share the same variable naming convection and similar code structure.
 
-- Directly run main_XXX.py would train a model on dataset XXX, and report the performance during training and the final test performance without early stop.
+- Directly run main_XXX.py would train a model on dataset XXX, report the performance on validation set during training (codes for getting performance on training set are commented out),  and report the final test performance *without* early stop. 
 
 - Default GPU usage is True. Change using_GPU to False if not using GPU.
 
-- To try different sets of hyperparameters, please check comments for details.
+- To try different sets of hyperparameters, please check code comments for detail.
+
+- Every script contains some codes for plotting the model performance, which are commented out in order to directly run the script in terminal.
+
+Some details:
+
+- Note that it takes time to finish 10-fold cross validation on the MOH-X and TroFi datasets.
+
+- For classification models,  directly running the script is expected to get some numbers that are slightly lower than reported numbers. Performances reported in the paper are steadily achieved **with** early stop and additional trainings with smaller learning rate, both of which are **not** included in the scripts for consideration on running time.
+
+- For the classification model trained on the VUA dataset, the script does **not** report the macro-averaged F1. (The script does not preserve the genre of each example, so we write out predictions to compute this measuare separatly with a lookup table.)
+
+- For sequence labeling models, directly running the script is expected to get results matched with the reported performance (likely to get slightly higher performance; possible to observe some small fluctuations).
+
+- Please run "mkdir predictions" at the root directory **before** running "python sequence/main_vua.py". A "predictions" folder is where sequence/main_vua.py writes predicitions, which is required to complete furthuer evaluations on the VUA verb classification dataset.
+
+- For sequence labeling model trained on the VUA sequence labeling dataset, the script would report five different performances in the following order:
+    - performance on the VUA sequence labling test set by POS tags regardless of genres
+    - performance on the VUA verb classification test set by genres
+    - performance on the VUA verb classification test set regardless of genres
+    - performance on the VUA sequence labling test set by genres
+    - performance on the VUA sequence labling test set regardless of genres
 
 
-## Reference
+
+## Citation
 ```
 @InProceedings{gao18nmd,
   author    = {Ge Gao, Eunsol Choi, Yejin Choi, and Luke Zettlemoyer},
