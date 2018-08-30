@@ -43,7 +43,7 @@ with open('../data/MOH-X/MOH-X_formatted_svo_cleaned.csv') as f:
     lines = csv.reader(f)
     next(lines)
     for line in lines:
-        raw_mohX.append([line[3], int(line[4]), int(line[5])])
+        raw_mohX.append([line[3][1:], int(line[4]), int(line[5])])
 print('MOH-X dataset', len(raw_mohX))
 
 """
@@ -60,6 +60,7 @@ word2idx, idx2word = get_word2idx_idx2word(vocab)
 # glove_embeddings a nn.Embeddings
 glove_embeddings = get_embedding_matrix(word2idx, idx2word, normalization=False)
 # elmo_embeddings
+# To exclude elmos: use elmos_mohx=None, and change embedding_dim in later model initiation.
 elmos_mohx = h5py.File('../elmo/MOH-X_cleaned.hdf5', 'r')
 # suffix_embeddings: number of suffix tag is 2, and the suffix embedding dimension is 50
 suffix_embeddings = nn.Embedding(2, 50)
@@ -116,17 +117,17 @@ for i in range(10):
     # Instantiate the model
     # embedding_dim = glove + elmo + suffix indicator
     # dropout1: dropout on input to RNN
-    # dropout2: dropout in RNN; would be used if num_layers=1
+    # dropout2: dropout in RNN; would be used if num_layers!=1
     # dropout3: dropout on hidden state of RNN to linear layer
     rnn_clf = RNNSequenceClassifier(num_classes=2, embedding_dim=300+1024+50, hidden_size=300, num_layers=1, bidir=True,
-                     dropout1=0.2, dropout2=0.2, dropout3=0.2)
+                     dropout1=0.2, dropout2=0, dropout3=0.2)
     # Move the model to the GPU if available
     if using_GPU:
         rnn_clf = rnn_clf.cuda()
     # Set up criterion for calculating loss
     nll_criterion = nn.NLLLoss()
     # Set up an optimizer for updating the parameters of the rnn_clf
-    rnn_clf_optimizer = optim.SGD(rnn_clf.parameters(), lr=0.08, momentum=0.9)
+    rnn_clf_optimizer = optim.SGD(rnn_clf.parameters(), lr=0.02, momentum=0.9)
     # Number of epochs (passes through the dataset) to train the model for.
     num_epochs = 30
 
@@ -181,24 +182,24 @@ for i in range(10):
     3.3
     plot the training process: MET F1 and losses for validation and training dataset
     """
-    plt.figure(0)
-    plt.title('F1 for MOH-X dataset on fold ' + str(i))
-    plt.xlabel('iteration (unit:200)')
-    plt.ylabel('F1')
-    plt.plot(val_f1,'g')
-    plt.plot(training_f1, 'b')
-    plt.legend(['Validation F1', 'Training F1'], loc='upper right')
-    plt.show()
+#     plt.figure(0)
+#     plt.title('F1 for MOH-X dataset on fold ' + str(i))
+#     plt.xlabel('iteration (unit:200)')
+#     plt.ylabel('F1')
+#     plt.plot(val_f1,'g')
+#     plt.plot(training_f1, 'b')
+#     plt.legend(['Validation F1', 'Training F1'], loc='upper right')
+#     plt.show()
 
 
-    plt.figure(1)
-    plt.title('Loss for MOH-X dataset on fold ' + str(i))
-    plt.xlabel('iteration (unit:200)')
-    plt.ylabel('Loss')
-    plt.plot(val_loss,'g')
-    plt.plot(training_loss, 'b')
-    plt.legend(['Validation loss', 'Training loss'], loc='upper right')
-    plt.show()
+#     plt.figure(1)
+#     plt.title('Loss for MOH-X dataset on fold ' + str(i))
+#     plt.xlabel('iteration (unit:200)')
+#     plt.ylabel('Loss')
+#     plt.plot(val_loss,'g')
+#     plt.plot(training_loss, 'b')
+#     plt.legend(['Validation loss', 'Training loss'], loc='upper right')
+#     plt.show()
 
     """
     store the best f1
@@ -207,11 +208,11 @@ for i in range(10):
 
 print('F1 on MOH-X by 10-fold = ', optimal_f1s)
 print('F1 on MOH-X = ', np.mean(np.array(optimal_f1s)))
-plt.figure(2)
-plt.title('F1 for MOH-X dataset on ten folds')
-plt.xlabel('fold')
-plt.ylabel('F1')
-plt.plot(optimal_f1s,'r')
-plt.plot([np.mean(np.array(optimal_f1s))] * 10, 'y')
-plt.legend(['F1 for each fold', 'Average F1'], loc='upper right')
-plt.show()
+# plt.figure(2)
+# plt.title('F1 for MOH-X dataset on ten folds')
+# plt.xlabel('fold')
+# plt.ylabel('F1')
+# plt.plot(optimal_f1s,'r')
+# plt.plot([np.mean(np.array(optimal_f1s))] * 10, 'y')
+# plt.legend(['F1 for each fold', 'Average F1'], loc='upper right')
+# plt.show()

@@ -117,16 +117,16 @@ set up model, loss criterion, optimizer
 # dropout2: dropout in RNN; would be used if num_layers=1
 # dropout3: dropout on hidden state of RNN to linear layer
 rnn_clf = RNNSequenceClassifier(num_classes=2, embedding_dim=300 + 1024 + 50, hidden_size=300, num_layers=1, bidir=True,
-                                dropout1=0.2, dropout2=0.2, dropout3=0.2)
+                                dropout1=0.3, dropout2=0.2, dropout3=0.2)
 # Move the model to the GPU if available
 if using_GPU:
     rnn_clf = rnn_clf.cuda()
 # Set up criterion for calculating loss
 nll_criterion = nn.NLLLoss()
 # Set up an optimizer for updating the parameters of the rnn_clf
-rnn_clf_optimizer = optim.SGD(rnn_clf.parameters(), lr=0.08, momentum=0.9)
+rnn_clf_optimizer = optim.SGD(rnn_clf.parameters(), lr=0.01,momentum=0.9)
 # Number of epochs (passes through the dataset) to train the model for.
-num_epochs = 15
+num_epochs = 20
 
 '''
 3. 2
@@ -166,13 +166,13 @@ for epoch in range(num_epochs):
                     num_iter, avg_eval_loss, eval_accuracy, precision, recall, f1, fus_f1))
             # filename = '../models/LSTMSuffixElmoAtt_???_all_iter_' + str(num_iter) + '.pt'
             # torch.save(rnn_clf, filename)
-            avg_eval_loss, eval_accuracy, precision, recall, f1, fus_f1 = evaluate(train_dataloader_vua, rnn_clf,
-                                                                                   nll_criterion, using_GPU)
-            training_loss.append(avg_eval_loss)
-            training_f1.append(f1)
-            print(
-                "Iteration {}. Training Loss {}. Training Accuracy {}. Training Precision {}. Training Recall {}. Training F1 {}. Training class-wise F1 {}.".format(
-                    num_iter, avg_eval_loss, eval_accuracy, precision, recall, f1, fus_f1))
+#             avg_eval_loss, eval_accuracy, precision, recall, f1, fus_f1 = evaluate(train_dataloader_vua, rnn_clf,
+#                                                                                    nll_criterion, using_GPU)
+#             training_loss.append(avg_eval_loss)
+#             training_f1.append(f1)
+#             print(
+#                 "Iteration {}. Training Loss {}. Training Accuracy {}. Training Precision {}. Training Recall {}. Training F1 {}. Training class-wise F1 {}.".format(
+#                     num_iter, avg_eval_loss, eval_accuracy, precision, recall, f1, fus_f1))
 print("Training done!")
 
 # cannot display the graph in terminal on remote server
