@@ -1,5 +1,6 @@
 from util import get_num_lines, get_pos2idx_idx2pos, index_sequence, get_vocab, embed_indexed_sequence, \
-    get_word2idx_idx2word, get_embedding_matrix, write_predictions, get_performance_VUAverb_val
+    get_word2idx_idx2word, get_embedding_matrix, write_predictions, get_performance_VUAverb_val, \
+    get_performance_VUAverb_test, get_performance_VUA_test
 from util import TextDatasetWithGloveElmoSuffix as TextDataset
 from util import evaluate
 from model import RNNSequenceModel
@@ -84,7 +85,8 @@ glove_embeddings = get_embedding_matrix(word2idx, idx2word, normalization=False)
 # elmo_embeddings
 elmos_train_vua = h5py.File('../elmo/VUA_train.hdf5', 'r')
 elmos_val_vua = h5py.File('../elmo/VUA_val.hdf5', 'r')
-
+# no suffix embeddings for sequence labeling
+suffix_embeddings = None
 
 '''
 2. 2
@@ -143,7 +145,7 @@ if using_GPU:
 # Set up criterion for calculating loss
 loss_criterion = nn.NLLLoss()
 # Set up an optimizer for updating the parameters of the rnn_clf
-rnn_optimizer = optim.Adam(RNNseq_model.parameters(), lr=0.001)
+rnn_optimizer = optim.Adam(RNNseq_model.parameters(), lr=0.005)
 # Number of epochs (passes through the dataset) to train the model for.
 num_epochs = 10
 
@@ -183,40 +185,141 @@ for epoch in range(num_epochs):
             val_loss.append(avg_eval_loss)
             val_f1s.append(performance_matrix[:, 2])
             print("Iteration {}. Validation Loss {}.".format(num_iter, avg_eval_loss))
-            avg_eval_loss, performance_matrix = evaluate(idx2pos, train_dataloader_vua, RNNseq_model,
+#             avg_eval_loss, performance_matrix = evaluate(idx2pos, train_dataloader_vua, RNNseq_model,
+#                                                          loss_criterion, using_GPU)
+#             train_loss.append(avg_eval_loss)
+#             train_f1s.append(performance_matrix[:, 2])
+#             print("Iteration {}. Training Loss {}.".format(num_iter, avg_eval_loss))
+
+"""
+for additional training
+"""
+rnn_optimizer = optim.Adam(RNNseq_model.parameters(), lr=0.0001)
+for epoch in range(10):
+    print("Starting epoch {}".format(epoch + 1))
+    for (__, example_text, example_lengths, labels) in train_dataloader_vua:
+        example_text = Variable(example_text)
+        example_lengths = Variable(example_lengths)
+        labels = Variable(labels)
+        if using_GPU:
+            example_text = example_text.cuda()
+            example_lengths = example_lengths.cuda()
+            labels = labels.cuda()
+        # predicted shape: (batch_size, seq_len, 2)
+        predicted = RNNseq_model(example_text, example_lengths)
+        batch_loss = loss_criterion(predicted.view(-1, 2), labels.view(-1))
+        rnn_optimizer.zero_grad()
+        batch_loss.backward()
+        rnn_optimizer.step()
+        num_iter += 1
+        # Calculate validation and training set loss and accuracy every 200 gradient updates
+        if num_iter % 200 == 0:
+            avg_eval_loss, performance_matrix = evaluate(idx2pos, val_dataloader_vua, RNNseq_model,
                                                          loss_criterion, using_GPU)
-            train_loss.append(avg_eval_loss)
-            train_f1s.append(performance_matrix[:, 2])
-            print("Iteration {}. Training Loss {}.".format(num_iter, avg_eval_loss))
+            val_loss.append(avg_eval_loss)
+            val_f1s.append(performance_matrix[:, 2])
+            print("Iteration {}. Validation Loss {}.".format(num_iter, avg_eval_loss))
+
+#             avg_eval_loss, performance_matrix = evaluate(idx2pos, train_dataloader_vua, RNNseq_model,
+#                                                          loss_criterion, using_GPU)
+#             train_loss.append(avg_eval_loss)
+#             train_f1s.append(performance_matrix[:, 2])
+#             print("Iteration {}. Training Loss {}.".format(num_iter, avg_eval_loss))
+#             comparable.append(get_performance())
+
 print("Training done!")
 
-"""
-3.3
-plot the training process: losses for validation and training dataset
-"""
-plt.figure(0)
-plt.title('Loss for VUA dataset')
-plt.xlabel('iteration (unit:200)')
-plt.ylabel('Loss')
-plt.plot(val_loss, 'g')
-plt.plot(train_loss, 'b')
-plt.legend(['Validation loss', 'Training loss'], loc='upper right')
-plt.show()
 
-plt.figure(1)
-plt.title('Validation F1 for VUA dataset')
-plt.xlabel('iteration (unit:200)')
-plt.ylabel('F1')
-for i in range(len(idx2pos)):
-    plt.plot([x[i] for x in val_f1s])
-plt.legend([idx2pos[i] for i in range(len(idx2pos))], loc='upper left')
-plt.show()
 
-plt.figure(2)
-plt.title('Training F1 for VUA dataset')
-plt.xlabel('iteration (unit:200)')
-plt.ylabel('F1')
-for i in range(len(idx2pos)):
-    plt.plot([x[i] for x in train_f1s])
-plt.legend([idx2pos[i] for i in range(len(idx2pos))], loc='upper left')
-plt.show()
+# """
+# 3.3
+# plot the training process: losses for validation and training dataset
+# """
+# plt.figure(0)
+# plt.title('Loss for VUA dataset')
+# plt.xlabel('iteration (unit:200)')
+# plt.ylabel('Loss')
+# plt.plot(val_loss, 'g')
+# plt.plot(train_loss, 'b')
+# plt.legend(['Validation loss', 'Training loss'], loc='upper right')
+# plt.show()
+
+# plt.figure(1)
+# plt.title('Validation F1 for VUA dataset')
+# plt.xlabel('iteration (unit:200)')
+# plt.ylabel('F1')
+# for i in range(len(idx2pos)):
+#     plt.plot([x[i] for x in val_f1s])
+# plt.legend([idx2pos[i] for i in range(len(idx2pos))], loc='upper left')
+# plt.show()
+
+# plt.figure(2)
+# plt.title('Training F1 for VUA dataset')
+# plt.xlabel('iteration (unit:200)')
+# plt.ylabel('F1')
+# for i in range(len(idx2pos)):
+#     plt.plot([x[i] for x in train_f1s])
+# plt.legend([idx2pos[i] for i in range(len(idx2pos))], loc='upper left')
+# plt.show()
+
+
+"""
+test on genres by POS tags
+"""
+print("**********************************************************")
+print("Evalutation on test set: ")
+
+raw_test_vua = []
+with open('../data/VUAsequence/VUA_seq_formatted_test.csv', encoding='latin-1') as f:
+    lines = csv.reader(f)
+    next(lines)
+    for line in lines:
+        # txt_id	sen_ix	sentence	label_seq	pos_seq	labeled_sentence	genre
+        pos_seq = ast.literal_eval(line[4])
+        label_seq = ast.literal_eval(line[3])
+        assert(len(pos_seq) == len(label_seq))
+        assert(len(line[2].split()) == len(pos_seq))
+        raw_test_vua.append([line[2], label_seq, pos_seq])
+print('number of examples(sentences) for test_set ', len(raw_test_vua))
+
+for i in range(len(raw_test_vua)):
+    raw_test_vua[i][2] = index_sequence(pos2idx, raw_test_vua[i][2])
+
+elmos_test_vua = h5py.File('../elmo/VUA_test.hdf5', 'r')
+# raw_train_vua: sentence, label_seq, pos_seq
+# embedded_train_vua: embedded_sentence, pos, labels
+embedded_test_vua = [[embed_indexed_sequence(example[0], example[2], word2idx,
+                                      glove_embeddings, elmos_test_vua, suffix_embeddings),
+                       example[2], example[1]]
+                      for example in raw_test_vua]
+
+# Separate the input (embedded_sequence) and labels in the indexed train sets.
+# embedded_train_vua: embedded_sentence, pos, labels
+test_dataset_vua = TextDataset([example[0] for example in embedded_test_vua],
+                              [example[1] for example in embedded_test_vua],
+                              [example[2] for example in embedded_test_vua])
+
+# Set up a DataLoader for the test dataset
+test_dataloader_vua = DataLoader(dataset=test_dataset_vua, batch_size=batch_size,
+                              collate_fn=TextDataset.collate_fn)
+
+print("Tagging model performance on VUA test set by POS tags: regardless of genres")
+avg_eval_loss, performance_matrix = evaluate(idx2pos, test_dataloader_vua, RNNseq_model, loss_criterion, using_GPU)
+
+
+
+"""
+write the test prediction on the VUA-verb to a file: sequence prediction
+read and extract to get a comparabel performance on VUA-verb test set.
+"""
+def get_comparable_performance_test():
+    result = write_predictions(raw_test_vua, test_dataloader_vua, RNNseq_model, using_GPU, '../data/VUAsequence/VUA_seq_formatted_test.csv')
+    f = open('../predictions/vua_seq_test_predictions_LSTMsequence_vua.csv', 'w')
+    writer = csv.writer(f)
+    writer.writerows(result)
+    f.close()
+
+    get_performance_VUAverb_test()
+    get_performance_VUA_test()
+
+get_comparable_performance_test()
