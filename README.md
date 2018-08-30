@@ -51,13 +51,13 @@ We have ELMo vectors for the MOH-X, TroFi, and VUA datasets with train/dev/test 
 
 _Overall guideline_:
 
-- main_XXX.py is the training and testing script for a classification model or sequence labeling model on dataset XXX. 
+- Each main_XXX.py is a training and testing script for a classification model or sequence labeling model on dataset XXX. 
 
 - Directly running main_XXX.py will train a model on dataset XXX, report the performance on validation set during training (codes for getting performance on training set are commented out), and report the final test performance *without* early stop. 
 
 - Every main_XXX.py script contains some codes for plotting the model performance, which are commented out in order to directly run the script in terminal.
 
-- All main_XXX.py scripts share the same variable naming convection and similar code structure.
+- All main_XXX.py scripts share the same variable naming convention and similar code structure.
 
 - Default GPU usage is True. Change using_GPU to False if not using GPU.
 
@@ -69,7 +69,7 @@ _Some details_:
 
 - For classification models, directly running the script is expected to get some numbers that are slightly lower than the reported numbers. Performances reported in the paper are steadily achieved **with** early stop and additional trainings with smaller learning rates, both of which are **not** included in the script for the consideration on runtime.
 
-- For the classification model trained on the VUA dataset, the script does **not** report the macro-averaged F1. (The script does not save the genre of each example, so we wrote out predictions to compute this measure separately with a lookup table.)
+- For the classification model trained on the VUA verb classification dataset, the script does **not** report the macro-averaged F1. (The script does not save the genre of each example, so we wrote out predictions to compute this measure separately with a lookup table.)
 
 - For sequence labeling models, directly running the script is expected to get results matched with the reported performance (likely to get slightly higher performance; possible to observe some small fluctuations).
 
