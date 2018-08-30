@@ -17,7 +17,7 @@ Brief intro for each folder:
 
 - baseline: lexical baseline for MOH-X, TroFi, and VUA dataset.
 
-- context: BiLSTM for verb classification task.
+- classification: BiLSTM for verb classification task.
 
 - sequence: BiLSTM for sequence labeling task.
 
@@ -45,9 +45,9 @@ We have ELMo vectors for MOH-X, TroFi, and VUA dataset with train/dev/test divis
 
 ## Reproduction
 
-1. classificaiton task (classification model): Check the main_XXX.py in the folder context.
+1. classificaiton task (classification model): Check the main_XXX.py in the folder "classification".
 
-2. sequence labeling task (sequence labeling model): Check the main_XXX.py in the folder sequence.
+2. sequence labeling task (sequence labeling model): Check the main_XXX.py in the folder "sequence".
 
 Overall guideline:
 
