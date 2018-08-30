@@ -2,11 +2,11 @@
 Code for [Neural Metaphor Detection in Context](https://arxiv.org/pdf/1808.09653.pdf).
 
 ## Table of Contents
-- [Repo Basics](#Basics)
-- [Get Embeddings](#Embeddings)
-- [Installation](#Installation)
-- [Reproduce the Results](#Reproduction)
-- [Citation](#Citation)
+- [Repo Basics](#basics)
+- [Get Embeddings](#embeddings)
+- [Installation](#installation)
+- [Reproduce the Results](#reproduction)
+- [Citation](#citation)
 
 ## Basics
 Brief intro for each folder:
