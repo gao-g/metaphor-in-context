@@ -49,7 +49,7 @@ We have ELMo vectors for the MOH-X, TroFi, and VUA datasets with train/dev/test 
 
 2. sequence labeling task (sequence labeling model): Check the main_XXX.py in the folder "sequence".
 
-_Overall guideline_:
+### _Overall guideline_:
 
 - Each main_XXX.py is a training and testing script for a classification model or sequence labeling model on dataset XXX. 
 
@@ -63,7 +63,7 @@ _Overall guideline_:
 
 - To try different sets of hyperparameters, please read the code comments for details.
 
-_Some details_:
+### _Some details_:
 
 - Note that it takes time to finish 10-fold cross validation on the MOH-X and TroFi datasets.
 
