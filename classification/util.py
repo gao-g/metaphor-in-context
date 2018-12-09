@@ -135,7 +135,7 @@ def embed_sequence(sequence, verb_idx, word2idx, glove_embeddings, elmo_embeddin
 
     # 3. embed the sequence by suffix indicators i.e. wether it is a verb or not
     indicated_sequence = [0] * len(words)
-    indexed_sequence[verb_idx] = 1
+    indicated_sequence[verb_idx] = 1
     suffix_part = suffix_embeddings(Variable(torch.LongTensor(indicated_sequence)))
 
     # concatenate three parts: glove+elmo+suffix along axis 1
