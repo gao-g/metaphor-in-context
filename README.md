@@ -28,7 +28,7 @@ Visit https://nlp.stanford.edu/projects/glove/, download glove.840B.300d.zip, an
 
 2. ELMo
 
-The ELMo vector will be released upon request by other means (too large to be uploaded on GitHub).
+The ELMo vector will be released upon request by other means (too large to be uploaded on GitHub). If needed, please contact the first author by email.
 
 We have ELMo vectors for the MOH-X, TroFi, and VUA datasets with train/dev/test division. 
 
