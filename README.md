@@ -3,6 +3,7 @@ Code for [_Neural Metaphor Detection in Context_](https://arxiv.org/pdf/1808.096
 
 ## Table of Contents
 - [Repo Basics](#basics)
+- [Data](#data)
 - [Get Embeddings](#embeddings)
 - [Installation](#installation)
 - [Reproduce the Results](#reproduction)
@@ -11,15 +12,18 @@ Code for [_Neural Metaphor Detection in Context_](https://arxiv.org/pdf/1808.096
 ## Basics
 Brief intro for each folder:
 
-- corpora: contains raw datasets published online by researchers. can ignore.
+~~- corpora: contains raw datasets published online by researchers. can ignore.~~
 
-- data: contains formatted version of each corpus. Check notes in "data" folder for details.
+~~- data: contains formatted version of each corpus. Check notes in "data" folder for details.~~
 
 - baseline: lexical baseline for the MOH-X, TroFi, and VUA datasets.
 
 - classification: BiLSTM for the verb classification task.
 
 - sequence: BiLSTM for the sequence labeling task.
+
+## Data
+The data and corpora are removed in this repo for teaching purpose, so please email the first author to get the data. 
 
 ## Embeddings
 1. GloVe
