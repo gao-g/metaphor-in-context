@@ -23,7 +23,7 @@ Brief intro for each folder:
 - sequence: BiLSTM for the sequence labeling task.
 
 ## Data
-You can download the formatted version of the data from this Google Drive [link](https://drive.google.com/file/d/1pC-RXymyDkxfUfubkK_YFYK6VgzBR5co/view?usp=sharing), and unzip it.
+You can download the formatted version of the data from this Google Drive [link](https://drive.google.com/file/d/1-v_sUlupDrKq8ERlnh5RwdI7Pyk-6cxn/view?usp=sharing), and unzip it.
 
 ## Embeddings
 1. GloVe
@@ -32,7 +32,7 @@ Visit https://nlp.stanford.edu/projects/glove/, download glove.840B.300d.zip, an
 
 2. ELMo
 
-You can download our ELMo vectors from this Google Drive [link](https://drive.google.com/file/d/1cq9fm6nfVsVhRxvVfrWAjiVjUJwE5yqc/view?usp=sharing), and unzip it. We have ELMo vectors for the MOH-X, TroFi, and VUA datasets with train/dev/test division. 
+You can download our ELMo vectors from this Google Drive [link](https://drive.google.com/file/d/1QdtX-sg73ALRDUmjbTtyai_ZLOem_DsX/view?usp=sharing), and unzip it. We have ELMo vectors for the MOH-X, TroFi, and VUA datasets with train/dev/test division. 
 
 ## Installation
 1. This project is developed in Python 3.6. Using Conda to set up a virtual environment is recommended.
